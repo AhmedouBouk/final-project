@@ -1,0 +1,345 @@
+{% extends 'schedule/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="sticky-top bg-light">
+                <tr>
+                    <th>Code</th>
+                    <th>Title</th>
+                    <th>Credits</th>
+                    <th>CM Hours</th>
+                    <th>TD Hours</th>
+                    <th>TP Hours</th>
+                    <th>VHT</th>
+                    <th>CM Professor</th>
+                    <th>TD Professor</th>
+                    <th>TP Professor</th>
+                    <th>CM Room</th>
+                    <th>TP Room</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="courseTableBody">
+                {% for course in courses %}
+                <tr data-course-id="{{ course.code }}">
+                    <td class="editable" data-field="code">{{ course.code }}</td>
+                    <td class="editable" data-field="title">{{ course.title }}</td>
+                    <td class="editable" data-field="credits">{{ course.credits }}</td>
+                    <td class="editable" data-field="cm_hours">{{ course.cm_hours }}</td>
+                    <td class="editable" data-field="td_hours">{{ course.td_hours }}</td>
+                    <td class="editable" data-field="tp_hours">{{ course.tp_hours }}</td>
+                    <td class="editable" data-field="vht">{{ course.vht|default:'' }}</td>
+                    <td class="editable" data-field="cm_professor">
+                        {% for assignment in course.courseassignment_set.all %}
+                            {% if assignment.type == 'CM' %}{{ assignment.professor.name }}{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td class="editable" data-field="td_professor">
+                        {% for assignment in course.courseassignment_set.all %}
+                            {% if assignment.type == 'TD' %}{{ assignment.professor.name }}{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td class="editable" data-field="tp_professor">
+                        {% for assignment in course.courseassignment_set.all %}
+                            {% if assignment.type == 'TP' %}{{ assignment.professor.name }}{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td class="editable" data-field="cm_room">
+                        {% for assignment in course.courseassignment_set.all %}
+                            {% if assignment.type == 'CM' %}{{ assignment.room.number }}{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td class="editable" data-field="tp_room">
+                        {% for assignment in course.courseassignment_set.all %}
+                            {% if assignment.type == 'TP' %}{{ assignment.room.number }}{% endif %}
+                        {% endfor %}
+                    </td>
+                    <td>
+                        <button class="btn btn-sm btn-primary edit-row">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn btn-sm btn-danger delete-row">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                        <button class="btn btn-sm btn-success save-row" style="display: none;">
+                            <i class="fas fa-save"></i>
+                        </button>
+                        <button class="btn btn-sm btn-secondary cancel-row" style="display: none;">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <button id="addNewRow" class="btn btn-success mt-3">
+        <i class="fas fa-plus"></i> Add New Course
+    </button>
+</div>
+
+<style>
+    .table-responsive {
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+    }
+    
+    .sticky-top {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #f8f9fa;
+    }
+    
+    .editable {
+        padding: 8px !important;
+    }
+    
+    .editing {
+        padding: 0 !important;
+    }
+    
+    .editing input {
+        width: 100%;
+        padding: 4px;
+        margin: 0;
+        border: 1px solid #007bff;
+    }
+    
+    .form-control {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+    }
+    
+    .new-course-row input {
+        width: 100%;
+        padding: 4px;
+        margin: 0;
+    }
+    
+    .new-course-row td {
+        padding: 4px !important;
+    }
+</style>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+const departmentCode = "{{ department.code }}";
+const semesterCode = "{{ semester.code }}";
+
+$(document).ready(function() {
+    // Delete course functionality
+    $(document).on('click', '.delete-row', function() {
+        const row = $(this).closest('tr');
+        const code = row.data('course-id');
+        
+        if (confirm('Are you sure you want to delete this course?')) {
+            $.ajax({
+                url: `/api/${departmentCode}/${semesterCode}/delete_course/`,
+                type: 'POST',
+                data: JSON.stringify({ code: code }),
+                contentType: 'application/json',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}'
+                },
+                success: function(response) {
+                    if (response.success) {
+                        row.fadeOut(400, function() {
+                            $(this).remove();
+                        });
+                    } else {
+                        alert('Error: ' + response.message);
+                    }
+                },
+                error: function(xhr) {
+                    alert('Error deleting course: ' + xhr.responseText);
+                }
+            });
+        }
+    });
+
+    // Edit row functionality
+    $(document).on('click', '.edit-row', function() {
+        const row = $(this).closest('tr');
+        const code = row.data('course-id');
+        
+        // Hide edit/delete buttons, show save/cancel buttons
+        row.find('.edit-row, .delete-row').hide();
+        row.find('.save-row, .cancel-row').show();
+        
+        // Make cells editable
+        row.find('.editable').each(function() {
+            const cell = $(this);
+            const field = cell.data('field');
+            const currentValue = cell.text().trim();
+            
+            // Skip professor and room fields for now
+            if (field.includes('professor') || field.includes('room')) {
+                return;
+            }
+            
+            // Create input
+            const input = $('<input>')
+                .attr('type', field === 'title' ? 'text' : 'number')
+                .attr('class', 'form-control')
+                .val(currentValue)
+                .data('original-value', currentValue);
+            
+            cell.html(input).addClass('editing');
+        });
+    });
+
+    // Save row changes
+    $(document).on('click', '.save-row', function() {
+        const row = $(this).closest('tr');
+        const code = row.data('course-id');
+        const updates = {};
+        let hasChanges = false;
+        
+        // Collect changed values
+        row.find('input').each(function() {
+            const input = $(this);
+            const cell = input.closest('td');
+            const field = cell.data('field');
+            const newValue = input.val();
+            const originalValue = input.data('original-value');
+            
+            if (newValue !== originalValue) {
+                updates[field] = newValue;
+                hasChanges = true;
+            }
+        });
+        
+        if (!hasChanges) {
+            // No changes, just restore the row
+            restoreRow(row);
+            return;
+        }
+        
+        // Add department and semester codes
+        updates.department = departmentCode;
+        updates.semester = semesterCode;
+
+        // Send updates to server
+        $.ajax({
+            url: `/api/${departmentCode}/${semesterCode}/update_course/`,
+            type: 'POST',
+            data: JSON.stringify(updates),
+            contentType: 'application/json',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            success: function(response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    alert('Error: ' + response.message);
+                }
+            },
+            error: function(xhr) {
+                alert('Error updating course: ' + xhr.responseText);
+            }
+        });
+    });
+
+    // Cancel row edit
+    $(document).on('click', '.cancel-row', function() {
+        const row = $(this).closest('tr');
+        restoreRow(row);
+    });
+
+    function restoreRow(row) {
+        // Restore original values
+        row.find('input').each(function() {
+            const input = $(this);
+            const cell = input.closest('td');
+            cell.html(input.data('original-value')).removeClass('editing');
+        });
+        
+        // Show edit/delete buttons, hide save/cancel
+        row.find('.save-row, .cancel-row').hide();
+        row.find('.edit-row, .delete-row').show();
+    }
+
+    // Add new row functionality
+    $('#addNewRow').on('click', function() {
+        // Check if there's already a new row being added
+        if ($('.new-course-row').length > 0) {
+            return;
+        }
+
+        const newRow = $('<tr class="new-course-row">').append(`
+            <td><input type="text" class="form-control" name="code" required></td>
+            <td><input type="text" class="form-control" name="title" required></td>
+            <td><input type="number" class="form-control" name="credits" required></td>
+            <td><input type="number" class="form-control" name="cm_hours" required></td>
+            <td><input type="number" class="form-control" name="td_hours" required></td>
+            <td><input type="number" class="form-control" name="tp_hours" required></td>
+            <td><input type="number" class="form-control" name="vht"></td>
+            <td><input type="text" class="form-control" name="cm_professor"></td>
+            <td><input type="text" class="form-control" name="td_professor"></td>
+            <td><input type="text" class="form-control" name="tp_professor"></td>
+            <td><input type="text" class="form-control" name="cm_room"></td>
+            <td><input type="text" class="form-control" name="tp_room"></td>
+            <td>
+                <button class="btn btn-sm btn-success save-new-course">
+                    <i class="fas fa-save"></i>
+                </button>
+                <button class="btn btn-sm btn-secondary cancel-new-course">
+                    <i class="fas fa-times"></i>
+                </button>
+            </td>
+        `);
+
+        $('#courseTableBody').append(newRow);
+    });
+
+    // Save new course
+    $(document).on('click', '.save-new-course', function() {
+        const row = $(this).closest('tr');
+        const courseData = {};
+        
+        // Collect all input values
+        row.find('input').each(function() {
+            const field = $(this).attr('name');
+            const value = $(this).val();
+            courseData[field] = value;
+        });
+
+        // Add department and semester codes
+        courseData.department = departmentCode;
+        courseData.semester = semesterCode;
+
+        $.ajax({
+            url: `/api/${departmentCode}/${semesterCode}/add_course/`,
+            type: 'POST',
+            data: JSON.stringify(courseData),
+            contentType: 'application/json',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}'
+            },
+            success: function(response) {
+                if (response.success) {
+                    location.reload();
+                } else {
+                    alert('Error: ' + response.message);
+                }
+            },
+            error: function(xhr) {
+                alert('Error adding course: ' + xhr.responseText);
+            }
+        });
+    });
+
+    // Cancel new course
+    $(document).on('click', '.cancel-new-course', function() {
+        $(this).closest('tr').remove();
+    });
+});
+</script>
+{% endblock %}

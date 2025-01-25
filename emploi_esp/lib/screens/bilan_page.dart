@@ -22,7 +22,7 @@ class BilanPage extends StatefulWidget {
 
 class _BilanPageState extends State<BilanPage> with SingleTickerProviderStateMixin {
   final ApiService _apiService = ApiService();
-  BilanSemester? _bilanSemester;
+  List<BilanData>? _bilanData;
   String? _error;
   bool _isLoading = true;
   late AnimationController _controller;
@@ -50,165 +50,153 @@ class _BilanPageState extends State<BilanPage> with SingleTickerProviderStateMix
   }
 
   Future<void> _fetchBilan() async {
-    setState(() {
-      _isLoading = true;
-      _error = null;
-    });
-
     try {
-      final bilanSemester = await _apiService.getBilan(
-        widget.departmentCode,
-        widget.semesterCode,
-      );
-      setState(() {
-        _bilanSemester = bilanSemester;
-        _isLoading = false;
-      });
+      final data = await _apiService.getBilan(widget.departmentCode, widget.semesterCode);
+      if (mounted) {
+        setState(() {
+          _bilanData = data;
+          _isLoading = false;
+          _error = null;
+        });
+      }
     } catch (e) {
-      setState(() {
-        _error = e.toString();
-        _isLoading = false;
-      });
+      if (mounted) {
+        setState(() {
+          _error = 'Une erreur s\'est produite lors du chargement des données.';
+          _isLoading = false;
+        });
+      }
       print('API Error: $e');
     }
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: RefreshIndicator(
-          onRefresh: _fetchBilan,
-          child: CustomScrollView(
-            slivers: [
-              _buildAppBar(),
-              if (_error != null)
-                SliverToBoxAdapter(
-                  child: Center(
-                    child: Text(
-                      'Error: $_error',
-                      style: TextStyle(color: Colors.red),
-                    ),
-                  ),
-                )
-              else if (_isLoading)
-                SliverToBoxAdapter(
-                  child: Center(
-                    child: CircularProgressIndicator(),
-                  ),
-                )
-              else if (_bilanSemester != null)
-                SliverList(
-                  delegate: SliverChildBuilderDelegate(
-                    (context, index) {
-                      final bilan = _bilanSemester!.courses[index];
-                      return _buildBilanCard(bilan);
-                    },
-                    childCount: _bilanSemester!.courses.length,
-                  ),
-                )
-              else
-                SliverToBoxAdapter(
-                  child: Center(
-                    child: Text('No data available'),
-                  ),
-                ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildAppBar() {
-    return SliverAppBar(
-      expandedHeight: 80.0,
-      floating: true,
-      pinned: true,
-      stretch: true,
-      flexibleSpace: FlexibleSpaceBar(
-        title: Text(
-          'Progression des Cours',
-          style: GoogleFonts.poppins(
-            fontSize: 14,
-            fontWeight: FontWeight.bold,
-            color: Colors.white,
-          ),
-        ),
-        background: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Theme.of(context).colorScheme.primary,
-                Theme.of(context).colorScheme.primary.withOpacity(0.7),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildBilanCard(Bilan bilan) {
+  Widget _buildBilanCard(BilanData bilan) {
+    final progress = bilan.progressPercentage.toDouble();
+    
     return Card(
-      margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      elevation: 4,
+      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
       child: Padding(
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              bilan.code,
-              style: TextStyle(
+              bilan.courseCode,
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 8),
-            Text(
-              bilan.title,
-              style: TextStyle(
-                fontSize: 16,
-                color: Colors.grey[600],
-              ),
-            ),
-            SizedBox(height: 16),
-            LinearProgressIndicator(
-              value: bilan.totalProgress / 100,
-              backgroundColor: Colors.grey[200],
-              valueColor: AlwaysStoppedAnimation<Color>(
-                Theme.of(context).primaryColor,
-              ),
-            ),
-            SizedBox(height: 8),
+            const SizedBox(height: 16),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('Progress: ${bilan.totalProgress.toStringAsFixed(1)}%'),
-                Text('Credits: ${bilan.credits}'),
+                Expanded(
+                  flex: 2,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Heures prévues: ${bilan.plannedHours}',
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                      Text(
+                        'Heures complétées: ${bilan.completedHours}',
+                        style: const TextStyle(fontSize: 14),
+                      ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        '${progress.toStringAsFixed(0)}%',
+                        style: TextStyle(
+                          color: progress >= 100 ? Colors.green : Colors.blue,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        'Progression',
+                        style: const TextStyle(fontSize: 12),
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
-            SizedBox(height: 16),
-            _buildHoursRow('CM', bilan.cmCompleted, bilan.cmHours),
-            _buildHoursRow('TD', bilan.tdCompleted, bilan.tdHours),
-            _buildHoursRow('TP', bilan.tpCompleted, bilan.tpHours),
+            const SizedBox(height: 8),
+            LinearProgressIndicator(
+              value: progress / 100,
+              backgroundColor: Colors.grey[200],
+              valueColor: AlwaysStoppedAnimation<Color>(
+                progress >= 100 ? Colors.green : Colors.blue,
+              ),
+            ),
+            const SizedBox(height: 4),
           ],
         ),
       ),
     );
   }
 
-  Widget _buildHoursRow(String type, double completed, double total) {
-    return Padding(
-      padding: EdgeInsets.symmetric(vertical: 4),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text('$type Hours:'),
-          Text('${completed.toStringAsFixed(1)}/${total.toStringAsFixed(1)}'),
-        ],
+  @override
+  Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    if (_error != null) {
+      return Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Icon(
+              Icons.error_outline,
+              color: Colors.red,
+              size: 60,
+            ),
+            const SizedBox(height: 16),
+            Text(
+              _error!,
+              style: const TextStyle(color: Colors.red),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16),
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  _isLoading = true;
+                  _error = null;
+                });
+                _fetchBilan();
+              },
+              child: const Text('Réessayer'),
+            ),
+          ],
+        ),
+      );
+    }
+
+    if (_bilanData == null || _bilanData!.isEmpty) {
+      return const Center(
+        child: Text('Aucune donnée disponible'),
+      );
+    }
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Bilan - ${widget.departmentCode} - ${widget.semesterCode}'),
+      ),
+      body: SafeArea(
+        child: ListView.builder(
+          itemCount: _bilanData!.length,
+          itemBuilder: (context, index) => _buildBilanCard(_bilanData![index]),
+        ),
       ),
     );
   }

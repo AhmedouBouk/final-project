@@ -109,3 +109,33 @@ class BilanSemester {
     };
   }
 }
+
+class BilanData {
+  final String courseCode;
+  final int completedHours;
+  final int plannedHours;
+  final int progressPercentage;
+
+  BilanData({
+    required this.courseCode,
+    required this.completedHours,
+    required this.plannedHours,
+    required this.progressPercentage,
+  });
+
+  factory BilanData.fromJson(Map<String, dynamic> json) {
+    return BilanData(
+      courseCode: json['course_code'] ?? '',
+      completedHours: json['completed_hours']?.toInt() ?? 0,
+      plannedHours: json['planned_hours']?.toInt() ?? 0,
+      progressPercentage: json['progress_percentage']?.toInt() ?? 0,
+    );
+  }
+
+  Map<String, dynamic> toJson() => {
+    'course_code': courseCode,
+    'completed_hours': completedHours,
+    'planned_hours': plannedHours,
+    'progress_percentage': progressPercentage,
+  };
+}

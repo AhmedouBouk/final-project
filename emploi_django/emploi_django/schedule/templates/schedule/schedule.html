@@ -1,0 +1,224 @@
+{% extends 'schedule/base.html' %}
+
+{% block title %}Emploi du temps{% endblock %}
+
+{% block extra_css %}
+<style>
+    :root {
+        --bg-light: #f4f6f9;
+        --card-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .schedule-container {
+        background: linear-gradient(135deg, var(--bg-light) 0%, #e9ecef 100%);
+        padding: 2rem;
+        border-radius: 15px;
+    }
+
+    .schedule-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .week-selector {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .schedule-table {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: var(--card-shadow);
+        overflow: hidden;
+    }
+
+    .schedule-table th {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .schedule-table td {
+        padding: 10px;
+        vertical-align: top;
+        position: relative;
+    }
+
+    .course {
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 8px;
+        position: relative;
+        transition: transform 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .course:hover {
+        transform: scale(1.02);
+        z-index: 10;
+    }
+
+    .course.cm { 
+        background-color: #e6f2ff; 
+        border-left: 4px solid #2196f3;
+    }
+    .course.td { 
+        background-color: #fff0f0; 
+        border-left: 4px solid #f44336;
+    }
+    .course.tp { 
+        background-color: #f0fff0; 
+        border-left: 4px solid #4caf50;
+    }
+    .soutenance { 
+        background-color: #fff3e0; 
+        border-left: 4px solid #ff9800;
+    }
+    .military { 
+        background-color: #f3e5f5; 
+        border-left: 4px solid #9c27b0;
+    }
+
+    .course-details {
+        font-size: 0.9rem;
+    }
+
+    .course-code {
+        font-weight: bold;
+        color: var(--primary-color);
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .course-type {
+        color: #666;
+        font-style: italic;
+    }
+
+    .course-prof, .course-room {
+        font-size: 0.8rem;
+        color: #888;
+        margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+        .schedule-container {
+            padding: 1rem;
+        }
+
+        .schedule-header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .schedule-table {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media print {
+        .no-print {
+            display: none;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid schedule-container">
+    <div class="schedule-header">
+        <div>
+            <h2 class="mb-0">Emploi du temps</h2>
+            <p class="mb-0">{{ department.name }} - {{ semester.name }}</p>
+        </div>
+        <div class="week-selector">
+            <label for="weekSelect" class="text-white">Semaine</label>
+            <select class="form-select form-select-sm w-auto" id="weekSelect">
+                {% for week in weeks %}
+                <option value="{{ week }}">Semaine {{ week }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    
+    <div class="table-responsive">
+        <table class="table table-bordered schedule-table">
+            <thead>
+                <tr>
+                    <th>Période</th>
+                    {% for day in days %}
+                    <th>{{ day.1 }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for period in periods %}
+                <tr>
+                    <th>{{ period.1 }}</th>
+                    {% for day in days %}
+                    <td id="cell_{{ day.0 }}_{{ period.0 }}" 
+                        data-day="{{ day.0 }}" 
+                        data-period="{{ period.0 }}">
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    const departmentCode = "{{ department.code }}";
+    const semesterCode = "{{ semester.code }}";
+    let currentWeek = 1;
+    
+    function loadSchedule(week) {
+        $.get(`/api/${departmentCode}/${semesterCode}/plan/${week}/`, function(data) {
+            // Clear all cells
+            document.querySelectorAll('td[id^="cell_"]').forEach(cell => {
+                cell.innerHTML = '';
+                cell.className = '';
+            });
+            
+            // Fill cells with schedule data
+            data.forEach(item => {
+                const cell = document.querySelector(`#cell_${item.day}_${item.period}`);
+                if (cell) {
+                    let html = `<div class="course ${item.type.toLowerCase()}">
+                        <span class="course-code">${item.course_code}</span>
+                        <div class="course-details">
+                            <span class="course-type">${item.type}</span>
+                            ${item.professor ? `<div class="course-prof">${item.professor}</div>` : ''}
+                            ${item.room ? `<div class="course-room">Salle ${item.room}</div>` : ''}
+                        </div>
+                    </div>`;
+                    cell.innerHTML = html;
+                }
+            });
+        });
+    }
+    
+    // Week selection handler
+    $('#weekSelect').change(function() {
+        currentWeek = parseInt($(this).val());
+        loadSchedule(currentWeek);
+    });
+    
+    // Initial load
+    loadSchedule(currentWeek);
+</script>
+{% endblock %}

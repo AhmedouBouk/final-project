@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if department %}{{ department.name }}{% if semester %} - {{ semester.get_code_display }}{% endif %}{% else %}Sélection du département{% endif %}</title>
+    
+    <!-- Enhanced CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    {% block extra_css %}{% endblock %}
+    
+    <style>
+        :root {
+            /* Enhanced Color Palette */
+            --primary-color: #1a73e8;
+            --secondary-color: #34a853;
+            --accent-color: #ea4335;
+            --background-light: #f5f5f5;
+            --text-dark: #202124;
+            
+            /* Smooth Transitions */
+            --transition-speed: 0.3s;
+        }
+
+        * {
+            box-sizing: border-box;
+            transition: all var(--transition-speed) ease;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Enhanced Navbar */
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-color), #6a11cb);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: white !important;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand i {
+            margin-right: 10px;
+        }
+
+        .nav-link {
+            color: rgba(255,255,255,0.8) !important;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            background-color: white;
+            transition: width 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Responsive Main Content */
+        .main-content {
+            display: flex;
+            height: calc(100vh - 60px);
+            overflow: hidden;
+        }
+
+        .schedule-container {
+            width: 100%;
+            overflow-x: auto;
+            padding: 1rem;
+        }
+
+        .schedule-cell {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .schedule-cell:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .course-item {
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 6px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .course-item-details {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .course-item-action {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .navbar-collapse {
+                max-height: 80vh;
+                overflow-y: auto;
+            }
+
+            .schedule-cell {
+                padding: 10px;
+            }
+
+            .course-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .course-item-action {
+                width: 100%;
+                justify-content: flex-end;
+                margin-top: 10px;
+            }
+        }
+
+        /* Accessibility Improvements */
+        .btn-outline-light {
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .btn-outline-light:hover {
+            background-color: rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            {% if department %}
+                <a class="navbar-brand" href="{% url 'department_select' %}">
+                    <i class="bi bi-calendar2-week"></i>
+                    {{ department.name }}{% if semester %} - {{ semester.get_code_display }}{% endif %}
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        {% if semester %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'schedule' department.code semester.code %}">
+                                <i class="bi bi-table me-2"></i>Emploi du temps
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'plan' department.code semester.code %}">
+                                <i class="bi bi-diagram-3 me-2"></i>Planning
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'database' department.code semester.code %}">
+                                <i class="bi bi-database me-2"></i>Base de données
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'bilan' department.code semester.code %}">
+                                <i class="bi bi-graph-up me-2"></i>Bilan
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'semester_select' department.code %}">
+                                <i class="bi bi-arrow-repeat me-2"></i>Changer de semestre
+                            </a>
+                        </li>
+                        {% if not  user.profile.is_chef_departement %}
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'department_select' %}">
+                                <i class="bi bi-building me-2"></i>Changer de département
+                            </a>
+                        </li>
+                        {% endif%}
+
+                    </ul>
+                </div>
+            {% else %}
+                <a class="navbar-brand" href="{% url 'department_select' %}">
+                    <i class="bi bi-calendar2-week"></i>Emploi du temps
+                </a>
+            {% endif %}
+        </div>
+        <a class="navbar-brand" href="/">Mon Application</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <span class="navbar-text">Bonjour, {{ user.username }} !</span>
+                    </li>
+                    <li class="nav-item">
+                        <form action="{% url 'logout' %}" method="post">
+                            {% csrf_token %}
+                            <button type="submit" class="nav-link" style="background: none; border: none; padding: 0;">Déconnexion</button>
+                        </form>
+                    </li>
+                    
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Connexion</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="schedule-container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Updated JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    {% block extra_js %}{% endblock %}
+
+</body>
+</html>

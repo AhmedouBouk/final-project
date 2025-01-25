@@ -1,0 +1,111 @@
+{% extends "schedule/base.html" %}
+
+{% block content %}
+<div class="container-fluid semester-selection">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-md-8 col-lg-6">
+            <div class="card semester-selection-card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2 class="mb-0">
+                        <i class="bi bi-calendar-week me-2"></i>Sélectionnez un semestre
+                    </h2>
+                    <p class="text-white-50 mt-2">{{ department.name }}</p>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        {% for semester in semesters %}
+                        <div class="col-md-6 col-lg-4">
+                            <div class="semester-card">
+                                <div class="semester-icon">
+                                    <i class="bi bi-calendar3"></i>
+                                </div>
+                                <h5 class="semester-name">{{ semester.get_code_display }}</h5>
+                                <a href="{% url 'schedule' department.code semester.code %}" class="btn btn-primary stretched-link">
+                                    Accéder <i class="bi bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                        {% empty %}
+                        <div class="col-12">
+                            <div class="alert alert-info text-center" role="alert">
+                                <i class="bi bi-info-circle me-2"></i>Aucun semestre disponible
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="text-center mt-4">
+                        <a href="{% url 'department_select' %}" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left me-2"></i>Retour aux départements
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_css %}
+<style>
+    .semester-selection {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: calc(100vh - 60px);
+    }
+
+    .semester-selection-card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .semester-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        border: 1px solid rgba(0,0,0,0.075);
+    }
+
+    .semester-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .semester-icon {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 15px;
+    }
+
+    .semester-name {
+        margin-bottom: 15px;
+        color: var(--text-dark);
+    }
+
+    .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-primary:hover {
+        background-color: darken(var(--primary-color), 10%);
+    }
+
+    .btn-outline-secondary {
+        border-color: rgba(0,0,0,0.2);
+        color: var(--text-dark);
+    }
+
+    @media (max-width: 768px) {
+        .semester-card {
+            margin-bottom: 15px;
+        }
+    }
+</style>
+{% endblock %}
+{% endblock %}

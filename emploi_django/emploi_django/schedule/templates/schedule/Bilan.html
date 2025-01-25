@@ -1,0 +1,352 @@
+{% extends 'schedule/base.html' %}
+
+{% block title %}Bilan des Cours{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Table responsive design */
+    .table-responsive {
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Table styling */
+    .table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        background-color: #ffffff;
+    }
+
+    .table th,
+    .table td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+        color: #333;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .table tr:hover {
+        background-color: #f1f1f1;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Editable cells */
+    .editable {
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .editable:hover {
+        background-color: #e9ecef;
+    }
+
+    .editing {
+        padding: 0 !important;
+    }
+
+    .editing input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding: 8px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Progress cells */
+    .progress-cell {
+        font-weight: bold;
+        color: #28a745;
+    }
+
+    /* Alert styling */
+    .alert {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 0.5s ease;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+    }
+
+    /* Button styling */
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    /* Scrollbar styling */
+    .table-responsive::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .table-responsive::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <div id="alert" class="alert" role="alert"></div>
+    <h2>Bilan des Cours</h2>
+    <button class="btn btn-primary mb-3" onclick="location.reload()">Rafraîchir</button>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>CodeEM</th>
+                    <th>Titre</th>
+                    <th>Crédits EM</th>
+                    <th>CM Planifié</th>
+                    <th>CM Réalisé</th>
+                    <th>% CM</th>
+                    <th>TD Planifié</th>
+                    <th>TD Réalisé</th>
+                    <th>% TD</th>
+                    <th>TP Planifié</th>
+                    <th>TP Réalisé</th>
+                    <th>% TP</th>
+                    <th>Total Planifié</th>
+                    <th>Total Réalisé</th>
+                    <th>% Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for course in courses %}
+                <tr>
+                    <td>{{ course.code }}</td>
+                    <td>{{ course.title }}</td>
+                    <td>{{ course.credits }}</td>
+                    <td>{{ course.cm_hours }}</td>
+                    <td class="editable" data-field="cm_completed" data-course-code="{{ course.code }}">{{ course.cm_completed }}</td>
+                    <td class="progress-cell">{{ course.progress_cm|floatformat:2 }}%</td>
+                    <td>{{ course.td_hours }}</td>
+                    <td class="editable" data-field="td_completed" data-course-code="{{ course.code }}">{{ course.td_completed }}</td>
+                    <td class="progress-cell">{{ course.progress_td|floatformat:2 }}%</td>
+                    <td>{{ course.tp_hours }}</td>
+                    <td class="editable" data-field="tp_completed" data-course-code="{{ course.code }}">{{ course.tp_completed }}</td>
+                    <td class="progress-cell">{{ course.progress_tp|floatformat:2 }}%</td>
+                    <td>{{ course.cm_hours|add:course.td_hours|add:course.tp_hours }}</td>
+                    <td>{{ course.cm_completed|add:course.td_completed|add:course.tp_completed }}</td>
+                    <td class="progress-cell">{{ course.total_progress|floatformat:2 }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    $(document).ready(function() {
+        // Get CSRF token
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+        const csrftoken = getCookie('csrftoken');
+
+        // Function to show alert
+        function showAlert(message, type) {
+            const alert = $('#alert');
+            alert.removeClass('alert-success alert-danger')
+                 .addClass(`alert-${type}`)
+                 .html(message)
+                 .fadeIn()
+                 .delay(3000)
+                 .fadeOut();
+        }
+
+        // Function to validate input
+        function validateInput(value) {
+            return /^\d+$/.test(value) && parseInt(value) >= 0;
+        }
+
+        // Function to calculate progress
+        function calculateProgress(completed, planned) {
+            completed = parseFloat(completed) || 0;
+            planned = parseFloat(planned) || 0;
+            return planned > 0 ? ((completed / planned) * 100).toFixed(2) : '0.00';
+        }
+
+        // Function to update progress percentages
+        function updateProgress(cell) {
+            const row = cell.closest('tr');
+            
+            // Get planned hours
+            const cmPlanned = parseFloat(row.find('td:nth-child(4)').text()) || 0;
+            const tdPlanned = parseFloat(row.find('td:nth-child(7)').text()) || 0;
+            const tpPlanned = parseFloat(row.find('td:nth-child(10)').text()) || 0;
+            
+            // Get completed hours
+            const cmCompleted = parseFloat(row.find('td:nth-child(5)').text()) || 0;
+            const tdCompleted = parseFloat(row.find('td:nth-child(8)').text()) || 0;
+            const tpCompleted = parseFloat(row.find('td:nth-child(11)').text()) || 0;
+
+            console.log('Planned hours:', {cmPlanned, tdPlanned, tpPlanned});
+            console.log('Completed hours:', {cmCompleted, tdCompleted, tpCompleted});
+
+            // Update individual progress cells
+            row.find('td:nth-child(6)').text(`${calculateProgress(cmCompleted, cmPlanned)}%`);
+            row.find('td:nth-child(9)').text(`${calculateProgress(tdCompleted, tdPlanned)}%`);
+            row.find('td:nth-child(12)').text(`${calculateProgress(tpCompleted, tpPlanned)}%`);
+
+            // Update total cells
+            const totalPlanned = cmPlanned + tdPlanned + tpPlanned;
+            const totalCompleted = cmCompleted + tdCompleted + tpCompleted;
+            row.find('td:nth-child(13)').text(totalPlanned);
+            row.find('td:nth-child(14)').text(totalCompleted);
+            row.find('td:nth-child(15)').text(`${calculateProgress(totalCompleted, totalPlanned)}%`);
+
+            console.log('Total progress:', calculateProgress(totalCompleted, totalPlanned));
+        }
+
+        // Make cells editable on click
+        $('.editable').on('click', function() {
+            const cell = $(this);
+            if (!cell.hasClass('editing')) {
+                const value = cell.text().trim();
+                cell.data('original-value', value);  // Store original value
+                const input = $('<input type="text" class="form-control">').val(value);
+                cell.html(input).addClass('editing');
+                input.focus();
+            }
+        });
+
+        // Handle input blur and enter key
+        $(document).on('blur keypress', '.editing input', function(e) {
+            if (e.type === 'keypress' && e.which !== 13) return;
+            
+            const input = $(this);
+            const cell = input.parent();
+            const newValue = input.val().trim();
+            const oldValue = cell.data('original-value') || cell.text().trim();
+            const field = cell.data('field');
+            const courseCode = cell.data('course-code');
+
+            // Validate input
+            if (!validateInput(newValue)) {
+                input.addClass('invalid-input');
+                showAlert('Veuillez entrer un nombre entier positif', 'danger');
+                return;
+            }
+
+            // Get planned hours for validation
+            const row = cell.closest('tr');
+            let plannedHours = 0;
+            if (field === 'cm_completed') {
+                plannedHours = parseFloat(row.find('td:nth-child(4)').text());
+            } else if (field === 'td_completed') {
+                plannedHours = parseFloat(row.find('td:nth-child(7)').text());
+            } else if (field === 'tp_completed') {
+                plannedHours = parseFloat(row.find('td:nth-child(10)').text());
+            }
+
+            // Validate against planned hours
+            if (parseFloat(newValue) > plannedHours) {
+                input.addClass('invalid-input');
+                showAlert(`Les heures réalisées ne peuvent pas dépasser les heures planifiées (${plannedHours}h)`, 'danger');
+                return;
+            }
+
+            // Send update to server
+            const departmentCode = "{{ department.code }}";
+            $.ajax({
+                url: `/api/${departmentCode}/update_bilan/`,
+                method: 'POST',
+                headers: {'X-CSRFToken': csrftoken},
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    course_code: courseCode,
+                    field: field,
+                    value: newValue
+                }),
+                success: function(response) {
+                    cell.html(newValue).removeClass('editing');
+                    updateProgress(cell);
+                    showAlert('Mise à jour réussie', 'success');
+                },
+                error: function(xhr) {
+                    cell.html(oldValue).removeClass('editing');
+                    showAlert('Erreur lors de la mise à jour: ' + (xhr.responseJSON?.error || 'Erreur inconnue'), 'danger');
+                }
+            });
+        });
+
+        // Handle click outside editing cell
+        $(document).on('click', function(e) {
+            if (!$(e.target).closest('.editing').length && !$(e.target).hasClass('editable')) {
+                $('.editing input').blur();
+            }
+        });
+
+        // Initialize progress for all rows
+        $('.editable').each(function() {
+            updateProgress($(this));
+        });
+    });
+</script>
+{% endblock %}

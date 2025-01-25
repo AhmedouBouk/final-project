@@ -1,0 +1,100 @@
+{% extends "schedule/base.html" %}
+
+{% block content %}
+<div class="container-fluid department-selection">
+    <div class="row justify-content-center align-items-center vh-100">
+        <div class="col-md-8 col-lg-6">
+            <div class="card department-selection-card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2 class="mb-0">
+                        <i class="bi bi-building me-2"></i>Sélectionnez un département
+                    </h2>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        {% for department in departments %}
+                        <div class="col-md-6 col-lg-4">
+                            <div class="department-card">
+                                <div class="department-icon">
+                                    <i class="bi bi-stack"></i>
+                                </div>
+                                <h5 class="department-name">{{ department.name }}</h5>
+                                <a href="{% url 'semester_select' department.code %}" class="btn btn-primary stretched-link">
+                                    Accéder <i class="bi bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                        {% empty %}
+                        <div class="col-12">
+                            <div class="alert alert-info text-center" role="alert">
+                                <i class="bi bi-info-circle me-2"></i>Aucun département disponible
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_css %}
+<style>
+    .department-selection {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: calc(100vh - 60px);
+    }
+
+    .department-selection-card {
+        border: none;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .department-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        border: 1px solid rgba(0,0,0,0.075);
+    }
+
+    .department-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    }
+
+    .department-icon {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 15px;
+    }
+
+    .department-name {
+        margin-bottom: 15px;
+        color: var(--text-dark);
+    }
+
+    .btn-primary {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-primary:hover {
+        background-color: darken(var(--primary-color), 10%);
+    }
+
+    @media (max-width: 768px) {
+        .department-card {
+            margin-bottom: 15px;
+        }
+    }
+</style>
+{% endblock %}
+{% endblock %}

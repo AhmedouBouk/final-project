@@ -1821,3 +1821,720 @@ INFO 2025-01-26 16:01:31,287 views 17368 18936 Processing slot: 732, Type: CM, S
 INFO 2025-01-26 16:01:31,288 views 17368 18936 Regular course found: IRT13
 INFO 2025-01-26 16:01:31,288 views 17368 18936 Processing slot: 739, Type: TD, Special: False
 INFO 2025-01-26 16:01:31,288 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 09:59:03,824 views 55604 25536 Retrieved 12 slots from the database
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Processing slot: 736, Type: CM, Special: False
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Processing slot: 742, Type: CM, Special: False
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Processing slot: 735, Type: TD, Special: False
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Processing slot: 733, Type: TP, Special: False
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,829 views 55604 25536 Processing slot: 741, Type: TP, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 738, Type: EXAM, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT11
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 737, Type: TD, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT22
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 744, Type: TP, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT22
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 734, Type: DS, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT22
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 743, Type: DS, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT22
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Processing slot: 732, Type: CM, Special: False
+INFO 2025-01-26 09:59:03,835 views 55604 25536 Regular course found: IRT13
+INFO 2025-01-26 09:59:03,840 views 55604 25536 Processing slot: 739, Type: TD, Special: False
+INFO 2025-01-26 09:59:03,840 views 55604 25536 Regular course found: IRT13
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Retrieved 25 slots from the database
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Processing slot: 591, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,793 views 55604 55416 Processing slot: 613, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,797 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,797 views 55604 55416 Processing slot: 614, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,797 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,799 views 55604 55416 Processing slot: 615, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,799 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,800 views 55604 55416 Processing slot: 617, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,800 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,800 views 55604 55416 Processing slot: 618, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,801 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,801 views 55604 55416 Processing slot: 619, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,801 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,802 views 55604 55416 Processing slot: 621, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,802 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,802 views 55604 55416 Processing slot: 622, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,803 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,803 views 55604 55416 Processing slot: 623, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,804 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,804 views 55604 55416 Processing slot: 624, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,804 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,804 views 55604 55416 Processing slot: 626, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,806 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,807 views 55604 55416 Processing slot: 628, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,807 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,807 views 55604 55416 Processing slot: 629, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,808 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,808 views 55604 55416 Processing slot: 633, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,808 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Processing slot: 634, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Processing slot: 631, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Processing slot: 612, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,809 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,812 views 55604 55416 Processing slot: 616, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,812 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,812 views 55604 55416 Processing slot: 620, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,812 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,813 views 55604 55416 Processing slot: 625, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,814 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,814 views 55604 55416 Processing slot: 627, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,814 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,815 views 55604 55416 Processing slot: 630, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,815 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:13,815 views 55604 55416 Processing slot: 632, Type: CM, Special: False
+INFO 2025-01-26 10:05:13,815 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:22,431 views 55604 25536 Retrieved 25 slots from the database
+INFO 2025-01-26 10:05:22,431 views 55604 25536 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,431 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,431 views 55604 25536 Processing slot: 591, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,431 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,435 views 55604 25536 Processing slot: 613, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,435 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,435 views 55604 25536 Processing slot: 614, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,435 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 615, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 617, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 618, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 619, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 621, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 622, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Processing slot: 623, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,436 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,441 views 55604 25536 Processing slot: 624, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,442 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,442 views 55604 25536 Processing slot: 626, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,443 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,443 views 55604 25536 Processing slot: 628, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,443 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Processing slot: 629, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Processing slot: 633, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Processing slot: 634, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,444 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 631, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 612, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 616, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 620, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 625, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 627, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Processing slot: 630, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,446 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:22,451 views 55604 25536 Processing slot: 632, Type: CM, Special: False
+INFO 2025-01-26 10:05:22,451 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:27,845 views 55604 25536 Data received: {'week': 4, 'day': 'LUN', 'period': 'P5'}
+INFO 2025-01-26 10:05:27,867 views 55604 25536 Time slot deleted: {'week': 4, 'day': 'LUN', 'period': 'P5'}
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Retrieved 24 slots from the database
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Processing slot: 591, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Processing slot: 613, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,442 views 55604 55416 Processing slot: 614, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,447 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,447 views 55604 55416 Processing slot: 615, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,448 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,448 views 55604 55416 Processing slot: 617, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,448 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,448 views 55604 55416 Processing slot: 618, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,448 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,449 views 55604 55416 Processing slot: 619, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,449 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,449 views 55604 55416 Processing slot: 621, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,449 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,451 views 55604 55416 Processing slot: 622, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,451 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,451 views 55604 55416 Processing slot: 623, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,452 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,452 views 55604 55416 Processing slot: 624, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,452 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Processing slot: 626, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Processing slot: 628, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Processing slot: 629, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Processing slot: 633, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Processing slot: 634, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Processing slot: 631, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Processing slot: 612, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Processing slot: 616, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Processing slot: 625, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,458 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:30,463 views 55604 55416 Processing slot: 627, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,464 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:30,464 views 55604 55416 Processing slot: 630, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,464 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:30,464 views 55604 55416 Processing slot: 632, Type: CM, Special: False
+INFO 2025-01-26 10:05:30,464 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:44,439 views 55604 55416 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":12,"type":"CM"},{"week":1,"day":"LUN","period":"P2","course_code":12345,"type":"CM"},{"week":6,"day":"LUN","period":"P2","course_code":12345,"type":"CM"},{"week":1,"day":"LUN","period":"P3","course_code":12345,"type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":12,"type":"CM"},{"week":4,"day":"LUN","period":"P4","course_code":12345,"type":"CM"},{"week":1,"day":"LUN","period":"P5","course_code":12345,"type":"CM"},{"week":3,"day":"LUN","period":"P5","course_code":12345,"type":"CM"},{"week":5,"day":"LUN","period":"P5","course_code":12345,"type":"CM"},{"week":11,"day":"LUN","period":"P5","course_code":12345,"type":"CM"},{"week":1,"day":"MAR","period":"P1","course_code":12345,"type":"CM"},{"week":4,"day":"MAR","period":"P1","course_code":12345,"type":"CM"},{"week":1,"day":"MAR","period":"P2","course_code":12345,"type":"CM"},{"week":2,"day":"MAR","period":"P2","course_code":12,"type":"CM"},{"week":9,"day":"MAR","period":"P2","course_code":12345,"type":"CM"},{"week":1,"day":"MAR","period":"P3","course_code":12,"type":"CM"},{"week":4,"day":"MAR","period":"P3","course_code":12345,"type":"CM"},{"week":6,"day":"MAR","period":"P3","course_code":12345,"type":"CM"},{"week":1,"day":"MAR","period":"P4","course_code":12,"type":"CM"},{"week":2,"day":"MAR","period":"P4","course_code":12345,"type":"EXAM"},{"week":7,"day":"MAR","period":"P4","course_code":12,"type":"CM"},{"week":3,"day":"MAR","period":"P5","course_code":12345,"type":"CM"},{"week":10,"day":"MER","period":"P1","course_code":12345,"type":"CM"},{"week":6,"day":"MER","period":"P3","course_code":12,"type":"DS"}]
+INFO 2025-01-26 10:05:44,454 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,454 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,485 views 55604 55416 New slot created: 12 - LUN P1 (Week 1)
+INFO 2025-01-26 10:05:44,495 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,495 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,515 views 55604 55416 New slot created: 12345 - LUN P2 (Week 1)
+INFO 2025-01-26 10:05:44,521 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,526 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,541 views 55604 55416 New slot created: 12345 - LUN P2 (Week 6)
+INFO 2025-01-26 10:05:44,551 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,551 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,566 views 55604 55416 New slot created: 12345 - LUN P3 (Week 1)
+INFO 2025-01-26 10:05:44,571 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,578 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,592 views 55604 55416 New slot created: 12 - LUN P4 (Week 1)
+INFO 2025-01-26 10:05:44,602 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,602 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,617 views 55604 55416 New slot created: 12345 - LUN P4 (Week 4)
+INFO 2025-01-26 10:05:44,622 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,627 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,642 views 55604 55416 New slot created: 12345 - LUN P5 (Week 1)
+INFO 2025-01-26 10:05:44,652 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,652 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,667 views 55604 55416 New slot created: 12345 - LUN P5 (Week 3)
+INFO 2025-01-26 10:05:44,672 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,672 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,692 views 55604 55416 New slot created: 12345 - LUN P5 (Week 5)
+INFO 2025-01-26 10:05:44,698 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,703 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,718 views 55604 55416 New slot created: 12345 - LUN P5 (Week 11)
+INFO 2025-01-26 10:05:44,723 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,723 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,738 views 55604 55416 New slot created: 12345 - MAR P1 (Week 1)
+INFO 2025-01-26 10:05:44,748 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,748 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,764 views 55604 55416 New slot created: 12345 - MAR P1 (Week 4)
+INFO 2025-01-26 10:05:44,769 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,769 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,789 views 55604 55416 New slot created: 12345 - MAR P2 (Week 1)
+INFO 2025-01-26 10:05:44,794 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,794 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,809 views 55604 55416 New slot created: 12 - MAR P2 (Week 2)
+INFO 2025-01-26 10:05:44,814 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,819 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,835 views 55604 55416 New slot created: 12345 - MAR P2 (Week 9)
+INFO 2025-01-26 10:05:44,840 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,840 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,855 views 55604 55416 New slot created: 12 - MAR P3 (Week 1)
+INFO 2025-01-26 10:05:44,860 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,865 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,880 views 55604 55416 New slot created: 12345 - MAR P3 (Week 4)
+INFO 2025-01-26 10:05:44,885 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,885 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,905 views 55604 55416 New slot created: 12345 - MAR P3 (Week 6)
+INFO 2025-01-26 10:05:44,910 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,910 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,925 views 55604 55416 New slot created: 12 - MAR P4 (Week 1)
+INFO 2025-01-26 10:05:44,932 views 55604 55416 Course assignment found: 12345 - No Professor (EXAM)
+INFO 2025-01-26 10:05:44,936 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,951 views 55604 55416 New slot created: 12345 - MAR P4 (Week 2)
+INFO 2025-01-26 10:05:44,957 views 55604 55416 Course assignment found: 12 - No Professor (CM)
+INFO 2025-01-26 10:05:44,957 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,977 views 55604 55416 New slot created: 12 - MAR P4 (Week 7)
+INFO 2025-01-26 10:05:44,982 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:44,982 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:44,998 views 55604 55416 New slot created: 12345 - MAR P5 (Week 3)
+INFO 2025-01-26 10:05:45,003 views 55604 55416 Course assignment found: 12345 - No Professor (CM)
+INFO 2025-01-26 10:05:45,008 views 55604 55416 Existing slots to delete: 1
+INFO 2025-01-26 10:05:45,023 views 55604 55416 New slot created: 12345 - MER P1 (Week 10)
+INFO 2025-01-26 10:05:45,033 views 55604 55416 Course assignment created: 12 - No Professor (DS)
+INFO 2025-01-26 10:05:45,038 views 55604 55416 Existing slots to delete: 0
+INFO 2025-01-26 10:05:45,048 views 55604 55416 New slot created: 12 - MER P3 (Week 6)
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Retrieved 25 slots from the database
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,063 views 55604 55416 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,068 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,074 views 55604 55416 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,079 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,080 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,084 views 55604 55416 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,084 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,084 views 55604 55416 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,085 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,085 views 55604 55416 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,085 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Processing slot: 774, Type: DS, Special: False
+INFO 2025-01-26 10:05:45,086 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Retrieved 25 slots from the database
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,651 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,656 views 55604 25536 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,656 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,656 views 55604 25536 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,656 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,659 views 55604 25536 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,661 views 55604 25536 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,666 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:05:49,669 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:49,671 views 55604 25536 Processing slot: 774, Type: DS, Special: False
+INFO 2025-01-26 10:05:49,671 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:05:54,395 views 55604 25536 Raw request body: [{"week":"4","day":"MER","period":"P4","type":"SPECIAL","description":"Réunion de département"}]
+INFO 2025-01-26 10:05:54,416 views 55604 25536 Special CourseAssignment created: Réunion de département (SPECIAL)
+INFO 2025-01-26 10:05:54,418 views 55604 25536 Existing slots to delete: 0
+INFO 2025-01-26 10:05:54,428 views 55604 25536 New slot created: Réunion de département (SPECIAL) - MER P4 (Week 4)
+INFO 2025-01-26 10:05:59,448 views 55604 55416 Retrieved 25 slots from the database
+INFO 2025-01-26 10:05:59,448 views 55604 55416 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,448 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,453 views 55604 55416 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,453 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,454 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,459 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,464 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Processing slot: 774, Type: DS, Special: False
+INFO 2025-01-26 10:05:59,470 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:03,147 views 55604 55416 Raw request body: [{"week":"3","day":"MER","period":"P4","type":"SPECIAL","description":"Événement spécial"}]
+INFO 2025-01-26 10:06:03,172 views 55604 55416 Special CourseAssignment created: Événement spécial (SPECIAL)
+INFO 2025-01-26 10:06:03,177 views 55604 55416 Existing slots to delete: 0
+INFO 2025-01-26 10:06:03,188 views 55604 55416 New slot created: Événement spécial (SPECIAL) - MER P4 (Week 3)
+INFO 2025-01-26 10:06:06,197 views 55604 25536 Retrieved 25 slots from the database
+INFO 2025-01-26 10:06:06,197 views 55604 25536 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,197 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,202 views 55604 25536 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,207 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,213 views 55604 25536 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,218 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,218 views 55604 25536 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,218 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,218 views 55604 25536 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:06:06,220 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:06,220 views 55604 25536 Processing slot: 774, Type: DS, Special: False
+INFO 2025-01-26 10:06:06,248 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:06:13,251 views 55604 25536 Raw request body: [{"week":"6","day":"MER","period":"P3","type":"SPECIAL","description":"Événement spécial"}]
+INFO 2025-01-26 10:06:13,272 views 55604 25536 Special CourseAssignment created: Événement spécial (SPECIAL)
+INFO 2025-01-26 10:06:13,278 views 55604 25536 Existing slots to delete: 0
+INFO 2025-01-26 10:06:13,287 views 55604 25536 New slot created: Événement spécial (SPECIAL) - MER P3 (Week 6)
+INFO 2025-01-26 10:06:15,148 views 55604 25536 Data received: {'week': 6, 'day': 'MER', 'period': 'P3'}
+INFO 2025-01-26 10:06:15,173 views 55604 25536 Time slot deleted: {'week': 6, 'day': 'MER', 'period': 'P3'}
+INFO 2025-01-26 10:06:17,822 views 55604 55416 Retrieved 24 slots from the database
+INFO 2025-01-26 10:06:17,822 views 55604 55416 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,822 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,826 views 55604 55416 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,826 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,826 views 55604 55416 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,827 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,830 views 55604 55416 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,832 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,832 views 55604 55416 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,832 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,832 views 55604 55416 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,832 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,834 views 55604 55416 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,834 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,834 views 55604 55416 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,834 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,835 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,837 views 55604 55416 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:06:17,837 views 55604 55416 Regular course found: 12345
+INFO 2025-01-26 10:06:17,838 views 55604 55416 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,839 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:17,839 views 55604 55416 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,839 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:17,839 views 55604 55416 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,840 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:17,841 views 55604 55416 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,841 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:17,842 views 55604 55416 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,842 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:06:17,842 views 55604 55416 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:06:17,842 views 55604 55416 Regular course found: 12
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Retrieved 24 slots from the database
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,845 views 55604 25536 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,849 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,849 views 55604 25536 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,850 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12345
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,855 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:07:11,860 views 55604 25536 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,861 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:07:11,861 views 55604 25536 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,862 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:07:11,862 views 55604 25536 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,862 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:07:11,862 views 55604 25536 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:07:11,862 views 55604 25536 Regular course found: 12
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Retrieved 24 slots from the database
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,373 views 40080 64308 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,379 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,384 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,389 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:06,391 views 40080 64308 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,391 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:06,391 views 40080 64308 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:21:06,392 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:31,011 views 40080 800 Retrieved 24 slots from the database
+INFO 2025-01-26 10:21:31,011 views 40080 800 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,013 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,013 views 40080 800 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,018 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,018 views 40080 800 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,019 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,019 views 40080 800 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,019 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,019 views 40080 800 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,019 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,019 views 40080 800 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,019 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,019 views 40080 800 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,024 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,024 views 40080 800 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,024 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,025 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,025 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,025 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,025 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:21:31,025 views 40080 800 Regular course found: 12345
+INFO 2025-01-26 10:21:31,025 views 40080 800 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:31,029 views 40080 800 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:31,029 views 40080 800 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:31,029 views 40080 800 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:31,029 views 40080 800 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:31,029 views 40080 800 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:21:31,029 views 40080 800 Regular course found: 12
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Retrieved 24 slots from the database
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Processing slot: 469, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Processing slot: 752, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,422 views 40080 64308 Processing slot: 753, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Processing slot: 754, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Processing slot: 756, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Processing slot: 757, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,427 views 40080 64308 Processing slot: 758, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Processing slot: 759, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Processing slot: 760, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Processing slot: 761, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Processing slot: 762, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,432 views 40080 64308 Processing slot: 763, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,436 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,436 views 40080 64308 Processing slot: 765, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,436 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,436 views 40080 64308 Processing slot: 767, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,438 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,438 views 40080 64308 Processing slot: 768, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,438 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Processing slot: 772, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Processing slot: 773, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Processing slot: 770, Type: EXAM, Special: False
+INFO 2025-01-26 10:21:33,439 views 40080 64308 Regular course found: 12345
+INFO 2025-01-26 10:21:33,441 views 40080 64308 Processing slot: 751, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,441 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:33,441 views 40080 64308 Processing slot: 755, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,441 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:33,441 views 40080 64308 Processing slot: 764, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,443 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:33,443 views 40080 64308 Processing slot: 766, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,443 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:33,444 views 40080 64308 Processing slot: 769, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,444 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:21:33,444 views 40080 64308 Processing slot: 771, Type: CM, Special: False
+INFO 2025-01-26 10:21:33,444 views 40080 64308 Regular course found: 12
+INFO 2025-01-26 10:43:32,019 views 17460 49432 Received update request for department=GC, semester=S1
+INFO 2025-01-26 10:43:32,039 views 17460 49432 Updating course  with data: {}
+ERROR 2025-01-26 10:43:32,058 views 17460 49432 Course  not found

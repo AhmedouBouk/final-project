@@ -14,7 +14,7 @@ def home(request):
         if hasattr(request.user, 'profile'):
             profile = request.user.profile
             if profile.role.startswith('CHEF_'):
-                return redirect('department_dashboard', department_code=profile.department.code)
+                return redirect('semester_select', department_code=profile.department.code)
             else:
                 return redirect('select_department')
         else:
@@ -363,60 +363,82 @@ def save_plan(request, department_code, semester_code):
     return JsonResponse({'status': 'error', 'message': 'Invalid request method'}, status=405)
     
     
-def update_course(request, department_code, semester_code):
-    """Update course information"""
+@csrf_exempt
+def update_course(request, department_code, semester_code):  # Fix parameter name here
+    """Update course information and assignments"""
     if request.method == 'POST':
         try:
-            # Vérifier les permissions
-            check_chef_departement_permission(request.user)
+            # 1. Check permissions
+            check_chef_departement_permission(request.user, department_code)
             
+            # 2. Parse data
             data = json.loads(request.body)
             code = data.get('code')
             updates = data.get('updates', {})
             
-            # Trouver le cours
-            course = Course.objects.get(code=code, department__code=department_code, semester__code=semester_code)
+            # 3. Fetch department and semester
+            department = Department.objects.get(code=department_code)
+            semester = Semester.objects.get(code=semester_code, department=department)  # Use semester_code
             
-            # Mettre à jour chaque champ
-            for field, value in updates.items():
-                if hasattr(course, field):
-                    setattr(course, field, value)
+            # 4. Fetch the course
+            course = Course.objects.get(
+                code=code,
+                department=department,
+                semester=semester
+            )
             
+            # 5. Update basic fields
+            for field in ['title', 'credits', 'cm_hours', 'td_hours', 'tp_hours']:
+                if field in updates:
+                    setattr(course, field, updates[field])
             course.save()
-            return JsonResponse({
-                'status': 'success',
-                'message': f'Course {code} updated successfully'
-            })
             
-        except PermissionDenied as e:
-            return JsonResponse({
-                'status': 'error',
-                'message': str(e)
-            }, status=403)
+            # 6. Update assignments
+            for assignment_type in ['CM', 'TD', 'TP']:
+                professor_name = updates.get(f'{assignment_type.lower()}_professor')
+                room_number = updates.get(f'{assignment_type.lower()}_room')
+                
+                # Get or create assignment
+                assignment, _ = CourseAssignment.objects.get_or_create(
+                    course=course,
+                    type=assignment_type,
+                    defaults={'department': department, 'semester': semester}
+                )
+                
+                # Update professor
+                if professor_name:
+                    professor, _ = Professor.objects.get_or_create(name=professor_name.strip())
+                    assignment.professor = professor
+                else:
+                    assignment.professor = None
+                
+                # Update room
+                if room_number:
+                    room, _ = Room.objects.get_or_create(
+                        number=room_number.strip(),
+                        defaults={'type': assignment_type}
+                    )
+                    assignment.room = room
+                else:
+                    assignment.room = None
+                
+                assignment.save()
             
-        except Course.DoesNotExist:
-            return JsonResponse({
-                'status': 'error',
-                'message': f'Course with code {code} not found'
-            }, status=404)
+            return JsonResponse({'status': 'success', 'message': 'Course updated'})
             
+        except (Department.DoesNotExist, Semester.DoesNotExist, Course.DoesNotExist) as e:
+            return JsonResponse({'status': 'error', 'message': str(e)}, status=404)
         except Exception as e:
-            return JsonResponse({
-                'status': 'error',
-                'message': str(e)
-            }, status=400)
+            return JsonResponse({'status': 'error', 'message': str(e)}, status=400)
     
-    return JsonResponse({
-        'status': 'error',
-        'message': 'Invalid request method'
-    }, status=405)
+    return JsonResponse({'status': 'error', 'message': 'Invalid method'}, status=405)
 @csrf_exempt
 def delete_course(request, department_code, semester_code):
     """Delete a course"""
     if request.method == 'POST':
         try:
-            # Vérifier les permissions
-            check_chef_departement_permission(request.user)
+            # Check permissions
+            check_chef_departement_permission(request.user, department_code)
             
             data = json.loads(request.body)
             code = data.get('code')
@@ -425,52 +447,63 @@ def delete_course(request, department_code, semester_code):
                 return JsonResponse({
                     'error': 'Course code is required',
                     'status': 'error'
-                })
+                }, status=400)
             
-            try:
-                course = Course.objects.get(code=code, department__code=department_code, semester__code=semester_code)
-                course_name = str(course)  # Save course info before deletion
-                course.delete()
-                
-                return JsonResponse({
-                    'message': f'Course {course_name} deleted successfully',
-                    'status': 'success'
-                })
-                
-            except Course.DoesNotExist:
-                return JsonResponse({
-                    'error': f'Course with code {code} not found',
-                    'status': 'error'
-                })
-                
-        except PermissionDenied as e:
+            # Delete the course
+            course = Course.objects.get(
+                code=code,
+                department__code=department_code,
+                semester__code=semester_code
+            )
+            course.delete()
+            
+            return JsonResponse({
+                'message': f'Course {code} deleted successfully',
+                'status': 'success'
+            })
+            
+        except Course.DoesNotExist:
+            return JsonResponse({
+                'error': 'Course not found',
+                'status': 'error'
+            }, status=404)
+        except Exception as e:
             return JsonResponse({
                 'error': str(e),
                 'status': 'error'
-            }, status=403)
-                
-        except json.JSONDecodeError:
-            return JsonResponse({
-                'error': 'Invalid JSON data',
-                'status': 'error'
-            })
+            }, status=400)
     
     return JsonResponse({
         'error': 'Invalid request method',
         'status': 'error'
-    })
+    }, status=405)
 
 @csrf_exempt
 def add_course(request, department_code, semester_code):
     """Add a new course to the database"""
     if request.method == 'POST':
         try:
-            # Vérifier les permissions
-            check_chef_departement_permission(request.user,department_code)
+            # Check permissions
+            check_chef_departement_permission(request.user, department_code)
             
             data = json.loads(request.body)
             department = get_object_or_404(Department, code=department_code)
             semester = get_object_or_404(Semester, department=department, code=semester_code)
+
+            # Validate required fields
+            required_fields = ['code', 'title', 'credits', 'cm_hours', 'td_hours', 'tp_hours']
+            if not all(field in data for field in required_fields):
+                return JsonResponse({
+                    'success': False,
+                    'message': 'Missing required fields.'
+                }, status=400)
+
+            # Check for existing course code (globally unique)
+            if Course.objects.filter(code=data['code']).exists():
+                return JsonResponse({
+                    'success': False,
+                    'message': f"Course code {data['code']} already exists."
+                }, status=400)
 
             # Create the course
             course = Course.objects.create(
@@ -484,14 +517,50 @@ def add_course(request, department_code, semester_code):
                 semester=semester
             )
 
-            # ... (le reste de la logique)
-            
+            # Create CourseAssignment entries for professors and rooms
+            for assignment_type in ['CM', 'TD', 'TP']:
+                professor_name = data.get(f'{assignment_type.lower()}_professor')
+                room_number = data.get(f'{assignment_type.lower()}_room')
+
+                # Create professor if name is provided
+                professor = None
+                if professor_name:
+                    professor, _ = Professor.objects.get_or_create(name=professor_name.strip())
+
+                # Create room if number is provided
+                room = None
+                if room_number:
+                    room, _ = Room.objects.get_or_create(
+                        number=room_number.strip(),
+                        defaults={'type': assignment_type}  # Set room type based on assignment
+                    )
+
+                # Create assignment if professor or room is provided
+                if professor or room:
+                    CourseAssignment.objects.create(
+                        course=course,
+                        type=assignment_type,
+                        professor=professor,
+                        room=room,
+                        department=department,
+                        semester=semester
+                    )
+
+            return JsonResponse({
+                'success': True,
+                'message': f"Course {course.code} added successfully."
+            })
+
+        except json.JSONDecodeError:
+            return JsonResponse({
+                'success': False,
+                'message': 'Invalid JSON data.'
+            }, status=400)
         except PermissionDenied as e:
             return JsonResponse({
                 'success': False,
                 'message': str(e)
             }, status=403)
-        
         except Exception as e:
             return JsonResponse({
                 'success': False,
@@ -500,7 +569,7 @@ def add_course(request, department_code, semester_code):
 
     return JsonResponse({
         'success': False,
-        'message': 'Invalid request method'
+        'message': 'Invalid request method.'
     }, status=405)
 @csrf_exempt
 @csrf_exempt

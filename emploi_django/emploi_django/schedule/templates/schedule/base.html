@@ -60,10 +60,15 @@
             color: rgba(255,255,255,0.8) !important;
             font-weight: 500;
             position: relative;
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+            border-radius: 4px;
+            transition: all var(--transition-speed) ease;
         }
 
         .nav-link:hover {
             color: white !important;
+            background-color: rgba(255, 255, 255, 0.1);
         }
 
         .nav-link::after {
@@ -161,6 +166,24 @@
         .btn-outline-light:hover {
             background-color: rgba(255,255,255,0.1);
         }
+
+        /* Style spécifique pour le bouton de déconnexion */
+        .logout-button {
+            background: none;
+            border: none;
+            padding: 0.5rem 1rem;
+            color: rgba(255,255,255,0.8) !important;
+            font-weight: 500;
+            cursor: pointer;
+            margin: 0 0.25rem;
+            border-radius: 4px;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .logout-button:hover {
+            color: white !important;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -169,7 +192,7 @@
             {% if department %}
                 <a class="navbar-brand" href="{% url 'department_select' %}">
                     <i class="bi bi-calendar2-week"></i>
-                    {{ department.name }}{% if semester %} - {{ semester.get_code_display }}{% endif %}
+                    {{ department.code }}{% if semester %} - {{ semester.get_code_display }}{% endif %}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
@@ -232,7 +255,7 @@
                     <li class="nav-item">
                         <form action="{% url 'logout' %}" method="post">
                             {% csrf_token %}
-                            <button type="submit" class="nav-link" style="background: none; border: none; padding: 0;">Déconnexion</button>
+                            <button type="submit" class="logout-button">Déconnexion</button>
                         </form>
                     </li>
                     

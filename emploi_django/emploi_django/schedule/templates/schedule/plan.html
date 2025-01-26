@@ -56,7 +56,11 @@
         top: 0;
         z-index: 10;
     }
-
+.plan-table th.week-header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 20!important;
+}
     /* Left columns styling */
     .plan-table td:first-child,
     .plan-table th:first-child {
@@ -151,6 +155,8 @@
         color: white;
         font-size: 0.7rem;
         padding: 4px !important;
+        top: 0; /* Fixe l'en-tête en haut */
+       
     }
 
     /* Legend styling */
@@ -369,8 +375,7 @@
                 <button class="btn btn-warning w-100 mb-2" onclick="addSpecial('Réunion de département')">Réunion</button>
                 <button class="btn btn-warning w-100 mb-2" onclick="addSpecial('Événement spécial')">Événement</button>
 
-                <button class="btn btn-outline-danger w-100" onclick="clearCell()">Effacer</button>
-            </div>
+                <button class="btn btn-outline-danger w-100" onclick="clearCell()">Effacer</button>   </div>
             {% endif %}
 
         </div>
@@ -489,16 +494,111 @@ function addSpecial(description) {
 
 // Clear the selected cell
 function clearCell() {
-    if (!selectedCell) return;
-    selectedCell.innerHTML = '';
-    selectedCell.className = 'plan-cell';
-    selectedCell.dataset.courseCode = '';
-    selectedCell.dataset.type = '';
-    courseModal.hide();
-    savePlan();
+    console.log("Attempting to clear cell...");
+    if (!selectedCell) {
+        console.error("No cell selected.");
+        alert("Aucune cellule sélectionnée.");
+        return;
+    }
+
+    const week = selectedCell.dataset.week;
+    const day = selectedCell.dataset.day;
+    const period = selectedCell.dataset.period;
+
+    if (!week || !day || !period) {
+        console.error("Missing data in selected cell.");
+        alert("La cellule sélectionnée ne contient pas les informations nécessaires.");
+        return;
+    }
+
+    const slotData = {
+        week: parseInt(week),
+        day: day,
+        period: period
+    };
+
+    console.log("Sending delete request with data:", slotData);
+
+    fetch(`/api/${departmentCode}/${semesterCode}/delete_slot/`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRFToken': '{{ csrf_token }}'
+        },
+        body: JSON.stringify(slotData)
+    })
+    .then(response => {
+        if (!response.ok) {
+            return response.json().then(err => {
+                throw new Error(err.message || 'Erreur lors de la suppression.');
+            });
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.status === 'success') {
+            console.log("Cell cleared successfully.");
+            selectedCell.innerHTML = '';
+            selectedCell.className = 'plan-cell';
+            selectedCell.dataset.courseCode = '';
+            selectedCell.dataset.type = '';
+            courseModal.hide();
+        } else {
+            alert('Erreur lors de la suppression: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Erreur lors de la suppression: ' + error.message);
+    });
+}
+
+function savePlan() {
+    console.log("Saving plan...");
+    const slots = [];
+    
+    $('.plan-cell').each(function() {
+        const cell = $(this);
+        const courseCode = cell.data('courseCode');
+        const type = cell.data('type');
+        
+        if (courseCode && type) {
+            slots.push({
+                week: parseInt(cell.data('week')),
+                day: cell.data('day'),
+                period: cell.data('period'),
+                course_code: courseCode,
+                type: type
+            });
+        }
+    });
+    
+    console.log('Slots to save:', slots);
+    $.ajax({
+        url: `/api/${departmentCode}/${semesterCode}/save_slot/`,
+        method: 'POST',
+        data: JSON.stringify(slots),
+        contentType: 'application/json',
+        headers: {
+            'X-CSRFToken': '{{ csrf_token }}'
+        },
+        success: function(response) {
+            if (response.status === 'success') {
+                console.log('Plan saved successfully');
+            } else {
+                console.error('Error saving plan:', response.message);
+                alert('Erreur lors de la sauvegarde: ' + response.message);
+            }
+        },
+        error: function(xhr) {
+            console.error('Error saving plan:', xhr.responseText);
+            alert('Erreur lors de la sauvegarde du plan');
+        }
+    });
 }
 
 // Save the entire plan
+
 function savePlan() {
     const slots = [];
     
@@ -557,7 +657,6 @@ function savePlan() {
         }
     });
 }
-
 // Load the current plan
 function loadPlan() {
     $.get(`/api/${departmentCode}/${semesterCode}/plan/all/`, function(data) {

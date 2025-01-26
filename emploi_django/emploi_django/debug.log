@@ -1,0 +1,1823 @@
+INFO 2025-01-26 13:56:28,618 views 14704 17384 Retrieved 11 slots from the database
+INFO 2025-01-26 13:56:28,621 views 14704 17384 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 13:56:28,622 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,624 views 14704 17384 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 13:56:28,626 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,627 views 14704 17384 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 13:56:28,628 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,629 views 14704 17384 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 13:56:28,630 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,656 views 14704 17384 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 13:56:28,658 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,659 views 14704 17384 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 13:56:28,660 views 14704 17384 Regular course found: IRT11
+INFO 2025-01-26 13:56:28,661 views 14704 17384 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 13:56:28,663 views 14704 17384 Regular course found: IRT22
+INFO 2025-01-26 13:56:28,664 views 14704 17384 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 13:56:28,665 views 14704 17384 Regular course found: IRT22
+INFO 2025-01-26 13:56:28,665 views 14704 17384 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 13:56:28,666 views 14704 17384 Regular course found: IRT22
+INFO 2025-01-26 13:56:28,667 views 14704 17384 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 13:56:28,668 views 14704 17384 Regular course found: IRT13
+INFO 2025-01-26 13:56:28,669 views 14704 17384 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 13:56:28,670 views 14704 17384 Regular course found: IRT13
+INFO 2025-01-26 13:56:46,045 views 14704 17396 Retrieved 11 slots from the database
+INFO 2025-01-26 13:56:46,047 views 14704 17396 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 13:56:46,047 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,048 views 14704 17396 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 13:56:46,049 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,049 views 14704 17396 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 13:56:46,050 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,051 views 14704 17396 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 13:56:46,051 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,052 views 14704 17396 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 13:56:46,053 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,054 views 14704 17396 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 13:56:46,055 views 14704 17396 Regular course found: IRT11
+INFO 2025-01-26 13:56:46,056 views 14704 17396 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 13:56:46,057 views 14704 17396 Regular course found: IRT22
+INFO 2025-01-26 13:56:46,057 views 14704 17396 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 13:56:46,058 views 14704 17396 Regular course found: IRT22
+INFO 2025-01-26 13:56:46,060 views 14704 17396 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 13:56:46,061 views 14704 17396 Regular course found: IRT22
+INFO 2025-01-26 13:56:46,062 views 14704 17396 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 13:56:46,063 views 14704 17396 Regular course found: IRT13
+INFO 2025-01-26 13:56:46,064 views 14704 17396 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 13:56:46,065 views 14704 17396 Regular course found: IRT13
+INFO 2025-01-26 14:02:48,598 views 14704 2260 Retrieved 11 slots from the database
+INFO 2025-01-26 14:02:48,600 views 14704 2260 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:02:48,603 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,604 views 14704 2260 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:02:48,604 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,605 views 14704 2260 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:02:48,605 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,606 views 14704 2260 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:02:48,607 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,608 views 14704 2260 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:02:48,609 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,610 views 14704 2260 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:02:48,611 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:02:48,611 views 14704 2260 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:02:48,612 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:02:48,612 views 14704 2260 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:02:48,613 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:02:48,613 views 14704 2260 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:02:48,614 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:02:48,615 views 14704 2260 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:02:48,615 views 14704 2260 Regular course found: IRT13
+INFO 2025-01-26 14:02:48,616 views 14704 2260 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:02:48,617 views 14704 2260 Regular course found: IRT13
+INFO 2025-01-26 14:02:49,348 views 14704 16020 Retrieved 11 slots from the database
+INFO 2025-01-26 14:02:49,350 views 14704 16020 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:02:49,350 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,351 views 14704 16020 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:02:49,352 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,352 views 14704 16020 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:02:49,353 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,354 views 14704 16020 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:02:49,355 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,355 views 14704 16020 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:02:49,356 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,356 views 14704 16020 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:02:49,357 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:02:49,357 views 14704 16020 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:02:49,358 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:02:49,358 views 14704 16020 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:02:49,359 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:02:49,361 views 14704 16020 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:02:49,361 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:02:49,362 views 14704 16020 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:02:49,362 views 14704 16020 Regular course found: IRT13
+INFO 2025-01-26 14:02:49,363 views 14704 16020 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:02:49,363 views 14704 16020 Regular course found: IRT13
+INFO 2025-01-26 14:04:55,777 views 14704 2260 Retrieved 11 slots from the database
+INFO 2025-01-26 14:04:55,779 views 14704 2260 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:04:55,780 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,781 views 14704 2260 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:04:55,782 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,783 views 14704 2260 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:04:55,784 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,785 views 14704 2260 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:04:55,786 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,787 views 14704 2260 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:04:55,788 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,788 views 14704 2260 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:04:55,789 views 14704 2260 Regular course found: IRT11
+INFO 2025-01-26 14:04:55,791 views 14704 2260 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:04:55,792 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:04:55,793 views 14704 2260 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:04:55,793 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:04:55,794 views 14704 2260 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:04:55,795 views 14704 2260 Regular course found: IRT22
+INFO 2025-01-26 14:04:55,796 views 14704 2260 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:04:55,796 views 14704 2260 Regular course found: IRT13
+INFO 2025-01-26 14:04:55,797 views 14704 2260 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:04:55,798 views 14704 2260 Regular course found: IRT13
+INFO 2025-01-26 14:04:56,864 views 14704 16020 Retrieved 11 slots from the database
+INFO 2025-01-26 14:04:56,866 views 14704 16020 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:04:56,868 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,870 views 14704 16020 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:04:56,871 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,872 views 14704 16020 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:04:56,873 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,874 views 14704 16020 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:04:56,874 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,875 views 14704 16020 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:04:56,876 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,877 views 14704 16020 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:04:56,878 views 14704 16020 Regular course found: IRT11
+INFO 2025-01-26 14:04:56,879 views 14704 16020 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:04:56,879 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:04:56,880 views 14704 16020 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:04:56,882 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:04:56,883 views 14704 16020 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:04:56,884 views 14704 16020 Regular course found: IRT22
+INFO 2025-01-26 14:04:56,885 views 14704 16020 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:04:56,886 views 14704 16020 Regular course found: IRT13
+INFO 2025-01-26 14:04:56,886 views 14704 16020 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:04:56,887 views 14704 16020 Regular course found: IRT13
+INFO 2025-01-26 14:06:08,621 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:06:08,622 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:06:08,623 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,623 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:06:08,624 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,625 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:06:08,625 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,626 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:06:08,626 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,627 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:06:08,628 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,628 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:06:08,629 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:08,629 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:06:08,630 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:08,631 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:06:08,631 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:08,632 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:06:08,632 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:08,633 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:06:08,633 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:06:08,634 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:06:08,635 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:06:10,526 views 15236 5748 Retrieved 11 slots from the database
+INFO 2025-01-26 14:06:10,527 views 15236 5748 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:06:10,528 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,529 views 15236 5748 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:06:10,531 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,532 views 15236 5748 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:06:10,533 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,534 views 15236 5748 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:06:10,535 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,536 views 15236 5748 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:06:10,537 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,538 views 15236 5748 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:06:10,539 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:10,539 views 15236 5748 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:06:10,540 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:10,541 views 15236 5748 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:06:10,542 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:10,543 views 15236 5748 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:06:10,543 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:10,544 views 15236 5748 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:06:10,545 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:06:10,545 views 15236 5748 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:06:10,546 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:06:11,204 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:06:11,205 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:06:11,206 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,208 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:06:11,209 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,209 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:06:11,210 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,211 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:06:11,211 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,212 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:06:11,213 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,214 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:06:11,214 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:11,215 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:06:11,216 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:11,217 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:06:11,217 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:11,218 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:06:11,219 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:11,219 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:06:11,220 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:06:11,221 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:06:11,221 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:06:50,819 views 15236 5748 Retrieved 11 slots from the database
+INFO 2025-01-26 14:06:50,820 views 15236 5748 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:06:50,821 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,821 views 15236 5748 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:06:50,822 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,823 views 15236 5748 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:06:50,823 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,824 views 15236 5748 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:06:50,825 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,826 views 15236 5748 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:06:50,826 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,827 views 15236 5748 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:06:50,828 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:06:50,829 views 15236 5748 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:06:50,830 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:50,831 views 15236 5748 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:06:50,832 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:50,832 views 15236 5748 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:06:50,833 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:06:50,833 views 15236 5748 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:06:50,834 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:06:50,835 views 15236 5748 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:06:50,835 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:06:51,396 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:06:51,397 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:06:51,398 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,399 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:06:51,399 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,400 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:06:51,400 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,401 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:06:51,402 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,402 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:06:51,403 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,404 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:06:51,404 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:06:51,405 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:06:51,406 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:51,406 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:06:51,407 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:51,408 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:06:51,408 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:06:51,409 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:06:51,410 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:06:51,410 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:06:51,411 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:07:58,761 views 15236 5748 Retrieved 11 slots from the database
+INFO 2025-01-26 14:07:58,762 views 15236 5748 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:07:58,763 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,765 views 15236 5748 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:07:58,766 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,766 views 15236 5748 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:07:58,767 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,768 views 15236 5748 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:07:58,768 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,769 views 15236 5748 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:07:58,770 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,770 views 15236 5748 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:07:58,771 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:07:58,771 views 15236 5748 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:07:58,772 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:07:58,772 views 15236 5748 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:07:58,773 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:07:58,774 views 15236 5748 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:07:58,775 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:07:58,775 views 15236 5748 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:07:58,776 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:07:58,777 views 15236 5748 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:07:58,777 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:07:59,356 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:07:59,358 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:07:59,359 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,360 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:07:59,360 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,361 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:07:59,362 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,362 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:07:59,363 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,364 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:07:59,364 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,365 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:07:59,366 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:07:59,367 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:07:59,367 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:07:59,368 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:07:59,369 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:07:59,370 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:07:59,371 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:07:59,372 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:07:59,374 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:07:59,375 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:07:59,376 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:09:05,232 views 15236 5748 Retrieved 11 slots from the database
+INFO 2025-01-26 14:09:05,234 views 15236 5748 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:09:05,235 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,236 views 15236 5748 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:09:05,236 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,237 views 15236 5748 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:09:05,239 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,240 views 15236 5748 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:09:05,241 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,242 views 15236 5748 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:09:05,243 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,243 views 15236 5748 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:09:05,244 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:05,245 views 15236 5748 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:09:05,246 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:05,247 views 15236 5748 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:09:05,247 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:05,248 views 15236 5748 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:09:05,249 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:05,251 views 15236 5748 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:09:05,251 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:09:05,252 views 15236 5748 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:09:05,253 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:09:06,187 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:09:06,188 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:09:06,190 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,191 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:09:06,192 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,193 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:09:06,194 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,195 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:09:06,197 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,198 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:09:06,199 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,201 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:09:06,203 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:09:06,204 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:09:06,206 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:09:06,207 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:09:06,208 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:09:06,209 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:09:06,210 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:09:06,211 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:09:06,212 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:09:06,213 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:09:06,214 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:09:42,190 views 15236 5748 Retrieved 11 slots from the database
+INFO 2025-01-26 14:09:42,191 views 15236 5748 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:09:42,193 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,194 views 15236 5748 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:09:42,194 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,195 views 15236 5748 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:09:42,196 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,197 views 15236 5748 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:09:42,197 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,198 views 15236 5748 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:09:42,199 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,200 views 15236 5748 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:09:42,201 views 15236 5748 Regular course found: IRT11
+INFO 2025-01-26 14:09:42,202 views 15236 5748 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:09:42,203 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:42,204 views 15236 5748 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:09:42,205 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:42,206 views 15236 5748 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:09:42,207 views 15236 5748 Regular course found: IRT22
+INFO 2025-01-26 14:09:42,208 views 15236 5748 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:09:42,209 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:09:42,210 views 15236 5748 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:09:42,211 views 15236 5748 Regular course found: IRT13
+INFO 2025-01-26 14:15:18,668 views 15236 13016 Retrieved 11 slots from the database
+INFO 2025-01-26 14:15:18,670 views 15236 13016 Processing slot: 89, Type: CM, Special: False
+INFO 2025-01-26 14:15:18,671 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,674 views 15236 13016 Processing slot: 93, Type: CM, Special: False
+INFO 2025-01-26 14:15:18,674 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,675 views 15236 13016 Processing slot: 88, Type: TD, Special: False
+INFO 2025-01-26 14:15:18,676 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,677 views 15236 13016 Processing slot: 86, Type: TP, Special: False
+INFO 2025-01-26 14:15:18,677 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,678 views 15236 13016 Processing slot: 92, Type: TP, Special: False
+INFO 2025-01-26 14:15:18,678 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,679 views 15236 13016 Processing slot: 90, Type: EXAM, Special: False
+INFO 2025-01-26 14:15:18,680 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:18,681 views 15236 13016 Processing slot: 95, Type: TP, Special: False
+INFO 2025-01-26 14:15:18,682 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:18,682 views 15236 13016 Processing slot: 87, Type: DS, Special: False
+INFO 2025-01-26 14:15:18,683 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:18,684 views 15236 13016 Processing slot: 94, Type: DS, Special: False
+INFO 2025-01-26 14:15:18,684 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:18,685 views 15236 13016 Processing slot: 85, Type: CM, Special: False
+INFO 2025-01-26 14:15:18,686 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:18,686 views 15236 13016 Processing slot: 91, Type: TD, Special: False
+INFO 2025-01-26 14:15:18,687 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:36,266 views 15236 13016 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:15:36,276 views 15236 13016 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:15:36,280 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,321 views 15236 13016 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:15:36,329 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:15:36,332 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,349 views 15236 13016 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:15:36,355 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:15:36,360 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,375 views 15236 13016 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:15:36,381 views 15236 13016 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:15:36,385 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,402 views 15236 13016 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:15:36,411 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:15:36,414 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,433 views 15236 13016 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:15:36,441 views 15236 13016 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:15:36,444 views 15236 13016 Existing slots to delete: 0
+INFO 2025-01-26 14:15:36,453 views 15236 13016 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:15:36,461 views 15236 13016 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:15:36,464 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,482 views 15236 13016 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:15:36,490 views 15236 13016 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:15:36,493 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,511 views 15236 13016 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:15:36,517 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:15:36,520 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,537 views 15236 13016 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:15:36,545 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:15:36,548 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,566 views 15236 13016 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:15:36,572 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:15:36,576 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,595 views 15236 13016 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:15:36,602 views 15236 13016 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:15:36,606 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:36,625 views 15236 13016 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:15:36,664 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:15:36,665 views 15236 13016 Processing slot: 639, Type: CM, Special: False
+INFO 2025-01-26 14:15:36,666 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,667 views 15236 13016 Processing slot: 644, Type: CM, Special: False
+INFO 2025-01-26 14:15:36,668 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,669 views 15236 13016 Processing slot: 638, Type: TD, Special: False
+INFO 2025-01-26 14:15:36,670 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,671 views 15236 13016 Processing slot: 636, Type: TP, Special: False
+INFO 2025-01-26 14:15:36,672 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,672 views 15236 13016 Processing slot: 643, Type: TP, Special: False
+INFO 2025-01-26 14:15:36,673 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,674 views 15236 13016 Processing slot: 641, Type: EXAM, Special: False
+INFO 2025-01-26 14:15:36,675 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:36,675 views 15236 13016 Processing slot: 640, Type: TD, Special: False
+INFO 2025-01-26 14:15:36,676 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:36,677 views 15236 13016 Processing slot: 646, Type: TP, Special: False
+INFO 2025-01-26 14:15:36,678 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:36,679 views 15236 13016 Processing slot: 637, Type: DS, Special: False
+INFO 2025-01-26 14:15:36,679 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:36,680 views 15236 13016 Processing slot: 645, Type: DS, Special: False
+INFO 2025-01-26 14:15:36,681 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:36,682 views 15236 13016 Processing slot: 635, Type: CM, Special: False
+INFO 2025-01-26 14:15:36,683 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:36,684 views 15236 13016 Processing slot: 642, Type: TD, Special: False
+INFO 2025-01-26 14:15:36,684 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:44,148 views 15236 13016 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:15:44,160 views 15236 13016 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:15:44,163 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,225 views 15236 13016 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:15:44,231 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:15:44,234 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,260 views 15236 13016 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:15:44,266 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:15:44,269 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,292 views 15236 13016 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:15:44,298 views 15236 13016 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:15:44,301 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,320 views 15236 13016 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:15:44,328 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:15:44,331 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,350 views 15236 13016 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:15:44,359 views 15236 13016 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:15:44,362 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,380 views 15236 13016 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:15:44,386 views 15236 13016 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:15:44,390 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,409 views 15236 13016 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:15:44,417 views 15236 13016 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:15:44,421 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,440 views 15236 13016 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:15:44,447 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:15:44,451 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,467 views 15236 13016 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:15:44,475 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:15:44,479 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,497 views 15236 13016 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:15:44,503 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:15:44,506 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,523 views 15236 13016 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:15:44,530 views 15236 13016 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:15:44,533 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:15:44,552 views 15236 13016 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:15:44,578 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:15:44,579 views 15236 13016 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:15:44,580 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,581 views 15236 13016 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:15:44,582 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,583 views 15236 13016 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:15:44,584 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,585 views 15236 13016 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:15:44,586 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,587 views 15236 13016 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:15:44,588 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,589 views 15236 13016 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:15:44,590 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:15:44,591 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:15:44,592 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:44,593 views 15236 13016 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:15:44,593 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:44,594 views 15236 13016 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:15:44,595 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:44,596 views 15236 13016 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:15:44,597 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:15:44,598 views 15236 13016 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:15:44,598 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:44,599 views 15236 13016 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:15:44,600 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:15:50,492 views 15236 13016 Raw request body: [{"week":"1","day":"MAR","period":"P2","type":"SPECIAL","description":"Réunion de département"}]
+INFO 2025-01-26 14:15:50,529 views 15236 13016 Special CourseAssignment created: Réunion de département (SPECIAL)
+INFO 2025-01-26 14:15:50,535 views 15236 13016 Existing slots to delete: 0
+INFO 2025-01-26 14:15:50,548 views 15236 13016 New slot created: Réunion de département (SPECIAL) - MAR P2 (Week 1)
+INFO 2025-01-26 14:16:05,442 views 15236 4000 Retrieved 12 slots from the database
+INFO 2025-01-26 14:16:05,443 views 15236 4000 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:16:05,444 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,445 views 15236 4000 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:16:05,445 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,446 views 15236 4000 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:16:05,447 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,449 views 15236 4000 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:16:05,450 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,451 views 15236 4000 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:16:05,452 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,453 views 15236 4000 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:16:05,454 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:16:05,454 views 15236 4000 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:16:05,455 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:16:05,456 views 15236 4000 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:16:05,457 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:16:05,458 views 15236 4000 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:16:05,459 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:16:05,459 views 15236 4000 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:16:05,460 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:16:05,461 views 15236 4000 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:16:05,462 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:16:05,463 views 15236 4000 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:16:05,463 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:16:14,412 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:16:14,414 views 15236 13016 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:16:14,415 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,415 views 15236 13016 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:16:14,416 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,417 views 15236 13016 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:16:14,418 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,419 views 15236 13016 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:16:14,420 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,421 views 15236 13016 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:16:14,422 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,423 views 15236 13016 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:16:14,424 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:16:14,425 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:16:14,426 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:16:14,427 views 15236 13016 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:16:14,428 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:16:14,429 views 15236 13016 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:16:14,430 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:16:14,431 views 15236 13016 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:16:14,432 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:16:14,433 views 15236 13016 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:16:14,434 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:16:14,434 views 15236 13016 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:16:14,435 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:18:07,266 views 15236 4000 Retrieved 12 slots from the database
+INFO 2025-01-26 14:18:07,268 views 15236 4000 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:18:07,270 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,271 views 15236 4000 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:18:07,271 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,272 views 15236 4000 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:18:07,273 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,274 views 15236 4000 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:18:07,274 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,275 views 15236 4000 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:18:07,276 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,277 views 15236 4000 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:18:07,278 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:18:07,278 views 15236 4000 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:18:07,280 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:18:07,281 views 15236 4000 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:18:07,282 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:18:07,283 views 15236 4000 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:18:07,284 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:18:07,285 views 15236 4000 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:18:07,286 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:18:07,287 views 15236 4000 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:18:07,288 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:18:07,288 views 15236 4000 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:18:07,289 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:20:14,153 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:20:14,154 views 15236 13016 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:20:14,157 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,158 views 15236 13016 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:20:14,159 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,159 views 15236 13016 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:20:14,161 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,162 views 15236 13016 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:20:14,164 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,165 views 15236 13016 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:20:14,165 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,166 views 15236 13016 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:20:14,167 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:14,168 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:20:14,169 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:14,170 views 15236 13016 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:20:14,171 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:14,172 views 15236 13016 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:20:14,174 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:14,176 views 15236 13016 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:20:14,177 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:14,178 views 15236 13016 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:20:14,189 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:20:14,195 views 15236 13016 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:20:14,197 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:20:16,064 views 15236 4000 Retrieved 12 slots from the database
+INFO 2025-01-26 14:20:16,065 views 15236 4000 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,067 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,067 views 15236 4000 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,068 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,068 views 15236 4000 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,069 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,070 views 15236 4000 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,071 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,072 views 15236 4000 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,072 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,073 views 15236 4000 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:20:16,073 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,074 views 15236 4000 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,075 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,075 views 15236 4000 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,076 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,077 views 15236 4000 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:20:16,077 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,078 views 15236 4000 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:20:16,079 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,079 views 15236 4000 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,080 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:20:16,081 views 15236 4000 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,082 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:20:16,761 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:20:16,765 views 15236 13016 Processing slot: 651, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,766 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,767 views 15236 13016 Processing slot: 656, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,768 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,769 views 15236 13016 Processing slot: 650, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,770 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,772 views 15236 13016 Processing slot: 648, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,775 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,776 views 15236 13016 Processing slot: 655, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,777 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,779 views 15236 13016 Processing slot: 653, Type: EXAM, Special: False
+INFO 2025-01-26 14:20:16,780 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:16,781 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,782 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,783 views 15236 13016 Processing slot: 658, Type: TP, Special: False
+INFO 2025-01-26 14:20:16,784 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,785 views 15236 13016 Processing slot: 649, Type: DS, Special: False
+INFO 2025-01-26 14:20:16,786 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,787 views 15236 13016 Processing slot: 657, Type: DS, Special: False
+INFO 2025-01-26 14:20:16,788 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:16,789 views 15236 13016 Processing slot: 647, Type: CM, Special: False
+INFO 2025-01-26 14:20:16,790 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:20:16,791 views 15236 13016 Processing slot: 654, Type: TD, Special: False
+INFO 2025-01-26 14:20:16,792 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:20:20,011 views 15236 13016 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:20:20,023 views 15236 13016 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:20:20,027 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,044 views 15236 13016 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:20:20,052 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:20:20,055 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,071 views 15236 13016 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:20:20,080 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:20:20,084 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,101 views 15236 13016 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:20:20,109 views 15236 13016 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:20:20,113 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,131 views 15236 13016 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:20:20,136 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:20:20,139 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,158 views 15236 13016 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:20:20,165 views 15236 13016 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:20:20,168 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,186 views 15236 13016 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:20:20,193 views 15236 13016 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:20:20,197 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,215 views 15236 13016 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:20:20,222 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:20:20,226 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,244 views 15236 13016 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:20:20,251 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:20:20,254 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,274 views 15236 13016 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:20:20,281 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:20:20,284 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,301 views 15236 13016 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:20:20,309 views 15236 13016 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:20:20,313 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:20:20,330 views 15236 13016 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:20:20,370 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:20:20,371 views 15236 13016 Processing slot: 664, Type: CM, Special: False
+INFO 2025-01-26 14:20:20,372 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,373 views 15236 13016 Processing slot: 668, Type: CM, Special: False
+INFO 2025-01-26 14:20:20,374 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,375 views 15236 13016 Processing slot: 663, Type: TD, Special: False
+INFO 2025-01-26 14:20:20,375 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,376 views 15236 13016 Processing slot: 661, Type: TP, Special: False
+INFO 2025-01-26 14:20:20,377 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,378 views 15236 13016 Processing slot: 667, Type: TP, Special: False
+INFO 2025-01-26 14:20:20,379 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,380 views 15236 13016 Processing slot: 665, Type: EXAM, Special: False
+INFO 2025-01-26 14:20:20,381 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:20:20,382 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:20:20,382 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:20,383 views 15236 13016 Processing slot: 670, Type: TP, Special: False
+INFO 2025-01-26 14:20:20,384 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:20,385 views 15236 13016 Processing slot: 662, Type: DS, Special: False
+INFO 2025-01-26 14:20:20,386 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:20,387 views 15236 13016 Processing slot: 669, Type: DS, Special: False
+INFO 2025-01-26 14:20:20,387 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:20:20,388 views 15236 13016 Processing slot: 660, Type: CM, Special: False
+INFO 2025-01-26 14:20:20,389 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:20:20,390 views 15236 13016 Processing slot: 666, Type: TD, Special: False
+INFO 2025-01-26 14:20:20,391 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:22:35,820 views 15236 4000 Retrieved 12 slots from the database
+INFO 2025-01-26 14:22:35,822 views 15236 4000 Processing slot: 664, Type: CM, Special: False
+INFO 2025-01-26 14:22:35,823 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,825 views 15236 4000 Processing slot: 668, Type: CM, Special: False
+INFO 2025-01-26 14:22:35,825 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,826 views 15236 4000 Processing slot: 663, Type: TD, Special: False
+INFO 2025-01-26 14:22:35,827 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,829 views 15236 4000 Processing slot: 661, Type: TP, Special: False
+INFO 2025-01-26 14:22:35,829 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,833 views 15236 4000 Processing slot: 667, Type: TP, Special: False
+INFO 2025-01-26 14:22:35,835 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,836 views 15236 4000 Processing slot: 665, Type: EXAM, Special: False
+INFO 2025-01-26 14:22:35,837 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:35,838 views 15236 4000 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:22:35,839 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:35,840 views 15236 4000 Processing slot: 670, Type: TP, Special: False
+INFO 2025-01-26 14:22:35,841 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:35,842 views 15236 4000 Processing slot: 662, Type: DS, Special: False
+INFO 2025-01-26 14:22:35,843 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:35,844 views 15236 4000 Processing slot: 669, Type: DS, Special: False
+INFO 2025-01-26 14:22:35,846 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:35,847 views 15236 4000 Processing slot: 660, Type: CM, Special: False
+INFO 2025-01-26 14:22:35,847 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:22:35,849 views 15236 4000 Processing slot: 666, Type: TD, Special: False
+INFO 2025-01-26 14:22:35,849 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:22:36,458 views 15236 13016 Retrieved 12 slots from the database
+INFO 2025-01-26 14:22:36,459 views 15236 13016 Processing slot: 664, Type: CM, Special: False
+INFO 2025-01-26 14:22:36,460 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,461 views 15236 13016 Processing slot: 668, Type: CM, Special: False
+INFO 2025-01-26 14:22:36,462 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,463 views 15236 13016 Processing slot: 663, Type: TD, Special: False
+INFO 2025-01-26 14:22:36,464 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,465 views 15236 13016 Processing slot: 661, Type: TP, Special: False
+INFO 2025-01-26 14:22:36,466 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,467 views 15236 13016 Processing slot: 667, Type: TP, Special: False
+INFO 2025-01-26 14:22:36,467 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,468 views 15236 13016 Processing slot: 665, Type: EXAM, Special: False
+INFO 2025-01-26 14:22:36,469 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:22:36,470 views 15236 13016 Processing slot: 652, Type: TD, Special: False
+INFO 2025-01-26 14:22:36,471 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:22:36,472 views 15236 13016 Processing slot: 670, Type: TP, Special: False
+INFO 2025-01-26 14:22:36,472 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:22:36,473 views 15236 13016 Processing slot: 662, Type: DS, Special: False
+INFO 2025-01-26 14:22:36,474 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:22:36,475 views 15236 13016 Processing slot: 669, Type: DS, Special: False
+INFO 2025-01-26 14:22:36,475 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:22:36,476 views 15236 13016 Processing slot: 660, Type: CM, Special: False
+INFO 2025-01-26 14:22:36,477 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:22:36,477 views 15236 13016 Processing slot: 666, Type: TD, Special: False
+INFO 2025-01-26 14:22:36,478 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:22:42,481 views 15236 13016 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":1,"day":"LUN","period":"P5","course_code":"IRT22","type":"CM"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:22:42,494 views 15236 13016 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:22:42,497 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,541 views 15236 13016 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:22:42,547 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:22:42,551 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,571 views 15236 13016 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:22:42,577 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:22:42,580 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,598 views 15236 13016 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:22:42,610 views 15236 13016 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:22:42,613 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,632 views 15236 13016 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:22:42,640 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:22:42,643 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,662 views 15236 13016 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:22:42,669 views 15236 13016 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:22:42,673 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,693 views 15236 13016 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:22:42,699 views 15236 13016 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:22:42,703 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,722 views 15236 13016 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:22:42,728 views 15236 13016 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:22:42,731 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,749 views 15236 13016 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:22:42,757 views 15236 13016 Course assignment found: IRT22 - namou (CM)
+INFO 2025-01-26 14:22:42,760 views 15236 13016 Existing slots to delete: 0
+INFO 2025-01-26 14:22:42,771 views 15236 13016 New slot created: IRT22 - LUN P5 (Week 1)
+INFO 2025-01-26 14:22:42,777 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:22:42,780 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,799 views 15236 13016 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:22:42,809 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:22:42,811 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,829 views 15236 13016 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:22:42,839 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:22:42,842 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,861 views 15236 13016 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:22:42,870 views 15236 13016 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:22:42,873 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:22:42,893 views 15236 13016 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:22:49,943 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:22:49,945 views 15236 4000 Processing slot: 675, Type: CM, Special: False
+INFO 2025-01-26 14:22:49,946 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,947 views 15236 4000 Processing slot: 681, Type: CM, Special: False
+INFO 2025-01-26 14:22:49,948 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,949 views 15236 4000 Processing slot: 674, Type: TD, Special: False
+INFO 2025-01-26 14:22:49,950 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,951 views 15236 4000 Processing slot: 672, Type: TP, Special: False
+INFO 2025-01-26 14:22:49,951 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,952 views 15236 4000 Processing slot: 680, Type: TP, Special: False
+INFO 2025-01-26 14:22:49,953 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,954 views 15236 4000 Processing slot: 677, Type: EXAM, Special: False
+INFO 2025-01-26 14:22:49,954 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:22:49,955 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:22:49,956 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:49,957 views 15236 4000 Processing slot: 676, Type: TD, Special: False
+INFO 2025-01-26 14:22:49,957 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:49,958 views 15236 4000 Processing slot: 683, Type: TP, Special: False
+INFO 2025-01-26 14:22:49,959 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:49,960 views 15236 4000 Processing slot: 673, Type: DS, Special: False
+INFO 2025-01-26 14:22:49,961 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:49,962 views 15236 4000 Processing slot: 682, Type: DS, Special: False
+INFO 2025-01-26 14:22:49,962 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:22:49,963 views 15236 4000 Processing slot: 671, Type: CM, Special: False
+INFO 2025-01-26 14:22:49,964 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:22:49,965 views 15236 4000 Processing slot: 678, Type: TD, Special: False
+INFO 2025-01-26 14:22:49,965 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:22:53,730 views 15236 4000 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:22:53,756 views 15236 4000 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:22:53,762 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,811 views 15236 4000 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:22:53,823 views 15236 4000 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:22:53,827 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,847 views 15236 4000 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:22:53,857 views 15236 4000 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:22:53,860 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,880 views 15236 4000 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:22:53,888 views 15236 4000 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:22:53,891 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,910 views 15236 4000 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:22:53,916 views 15236 4000 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:22:53,920 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,938 views 15236 4000 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:22:53,945 views 15236 4000 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:22:53,947 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,965 views 15236 4000 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:22:53,974 views 15236 4000 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:22:53,977 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:53,996 views 15236 4000 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:22:54,004 views 15236 4000 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:22:54,008 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:54,028 views 15236 4000 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:22:54,035 views 15236 4000 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:22:54,039 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:54,058 views 15236 4000 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:22:54,065 views 15236 4000 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:22:54,070 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:54,089 views 15236 4000 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:22:54,095 views 15236 4000 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:22:54,098 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:54,118 views 15236 4000 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:22:54,125 views 15236 4000 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:22:54,128 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:22:54,147 views 15236 4000 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:23:32,290 views 15236 13016 Retrieved 13 slots from the database
+INFO 2025-01-26 14:23:32,291 views 15236 13016 Processing slot: 688, Type: CM, Special: False
+INFO 2025-01-26 14:23:32,292 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,293 views 15236 13016 Processing slot: 693, Type: CM, Special: False
+INFO 2025-01-26 14:23:32,294 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,295 views 15236 13016 Processing slot: 687, Type: TD, Special: False
+INFO 2025-01-26 14:23:32,295 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,296 views 15236 13016 Processing slot: 685, Type: TP, Special: False
+INFO 2025-01-26 14:23:32,297 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,298 views 15236 13016 Processing slot: 692, Type: TP, Special: False
+INFO 2025-01-26 14:23:32,298 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,299 views 15236 13016 Processing slot: 690, Type: EXAM, Special: False
+INFO 2025-01-26 14:23:32,300 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:23:32,300 views 15236 13016 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:23:32,301 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:23:32,302 views 15236 13016 Processing slot: 689, Type: TD, Special: False
+INFO 2025-01-26 14:23:32,302 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:23:32,303 views 15236 13016 Processing slot: 695, Type: TP, Special: False
+INFO 2025-01-26 14:23:32,303 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:23:32,304 views 15236 13016 Processing slot: 686, Type: DS, Special: False
+INFO 2025-01-26 14:23:32,305 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:23:32,305 views 15236 13016 Processing slot: 694, Type: DS, Special: False
+INFO 2025-01-26 14:23:32,306 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:23:32,307 views 15236 13016 Processing slot: 684, Type: CM, Special: False
+INFO 2025-01-26 14:23:32,307 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:23:32,308 views 15236 13016 Processing slot: 691, Type: TD, Special: False
+INFO 2025-01-26 14:23:32,309 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:23:36,664 views 15236 13016 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:23:36,682 views 15236 13016 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:23:36,685 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,727 views 15236 13016 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:23:36,736 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:23:36,739 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,758 views 15236 13016 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:23:36,763 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:23:36,767 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,786 views 15236 13016 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:23:36,793 views 15236 13016 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:23:36,795 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,818 views 15236 13016 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:23:36,824 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:23:36,827 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,843 views 15236 13016 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:23:36,852 views 15236 13016 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:23:36,855 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,873 views 15236 13016 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:23:36,879 views 15236 13016 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:23:36,882 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,898 views 15236 13016 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:23:36,905 views 15236 13016 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:23:36,908 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,925 views 15236 13016 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:23:36,932 views 15236 13016 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:23:36,936 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,953 views 15236 13016 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:23:36,960 views 15236 13016 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:23:36,962 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:36,979 views 15236 13016 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:23:36,986 views 15236 13016 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:23:36,990 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:37,007 views 15236 13016 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:23:37,014 views 15236 13016 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:23:37,018 views 15236 13016 Existing slots to delete: 1
+INFO 2025-01-26 14:23:37,035 views 15236 13016 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:23:40,569 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:23:40,571 views 15236 4000 Processing slot: 700, Type: CM, Special: False
+INFO 2025-01-26 14:23:40,573 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,574 views 15236 4000 Processing slot: 705, Type: CM, Special: False
+INFO 2025-01-26 14:23:40,575 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,576 views 15236 4000 Processing slot: 699, Type: TD, Special: False
+INFO 2025-01-26 14:23:40,577 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,578 views 15236 4000 Processing slot: 697, Type: TP, Special: False
+INFO 2025-01-26 14:23:40,579 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,580 views 15236 4000 Processing slot: 704, Type: TP, Special: False
+INFO 2025-01-26 14:23:40,581 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,583 views 15236 4000 Processing slot: 702, Type: EXAM, Special: False
+INFO 2025-01-26 14:23:40,584 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:23:40,585 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:23:40,586 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:23:40,587 views 15236 4000 Processing slot: 701, Type: TD, Special: False
+INFO 2025-01-26 14:23:40,587 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:23:40,588 views 15236 4000 Processing slot: 707, Type: TP, Special: False
+INFO 2025-01-26 14:23:40,589 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:23:40,590 views 15236 4000 Processing slot: 698, Type: DS, Special: False
+INFO 2025-01-26 14:23:40,591 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:23:40,592 views 15236 4000 Processing slot: 706, Type: DS, Special: False
+INFO 2025-01-26 14:23:40,594 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:23:40,596 views 15236 4000 Processing slot: 696, Type: CM, Special: False
+INFO 2025-01-26 14:23:40,597 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:23:40,603 views 15236 4000 Processing slot: 703, Type: TD, Special: False
+INFO 2025-01-26 14:23:40,605 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:24:13,090 views 15236 13016 Retrieved 13 slots from the database
+INFO 2025-01-26 14:24:13,091 views 15236 13016 Processing slot: 700, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,091 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,092 views 15236 13016 Processing slot: 705, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,093 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,094 views 15236 13016 Processing slot: 699, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,095 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,096 views 15236 13016 Processing slot: 697, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,097 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,098 views 15236 13016 Processing slot: 704, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,099 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,099 views 15236 13016 Processing slot: 702, Type: EXAM, Special: False
+INFO 2025-01-26 14:24:13,100 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,101 views 15236 13016 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,102 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,103 views 15236 13016 Processing slot: 701, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,103 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,104 views 15236 13016 Processing slot: 707, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,105 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,106 views 15236 13016 Processing slot: 698, Type: DS, Special: False
+INFO 2025-01-26 14:24:13,107 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,107 views 15236 13016 Processing slot: 706, Type: DS, Special: False
+INFO 2025-01-26 14:24:13,108 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,109 views 15236 13016 Processing slot: 696, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,110 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:24:13,111 views 15236 13016 Processing slot: 703, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,112 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:24:13,542 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:24:13,543 views 15236 4000 Processing slot: 700, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,543 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,544 views 15236 4000 Processing slot: 705, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,545 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,546 views 15236 4000 Processing slot: 699, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,546 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,547 views 15236 4000 Processing slot: 697, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,548 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,549 views 15236 4000 Processing slot: 704, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,549 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,550 views 15236 4000 Processing slot: 702, Type: EXAM, Special: False
+INFO 2025-01-26 14:24:13,551 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:13,551 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,552 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,553 views 15236 4000 Processing slot: 701, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,554 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,554 views 15236 4000 Processing slot: 707, Type: TP, Special: False
+INFO 2025-01-26 14:24:13,555 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,556 views 15236 4000 Processing slot: 698, Type: DS, Special: False
+INFO 2025-01-26 14:24:13,556 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,557 views 15236 4000 Processing slot: 706, Type: DS, Special: False
+INFO 2025-01-26 14:24:13,557 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:13,558 views 15236 4000 Processing slot: 696, Type: CM, Special: False
+INFO 2025-01-26 14:24:13,558 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:24:13,559 views 15236 4000 Processing slot: 703, Type: TD, Special: False
+INFO 2025-01-26 14:24:13,559 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:24:16,105 views 15236 4000 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 14:24:16,116 views 15236 4000 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 14:24:16,119 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,137 views 15236 4000 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 14:24:16,147 views 15236 4000 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:24:16,153 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,170 views 15236 4000 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 14:24:16,175 views 15236 4000 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:24:16,178 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,196 views 15236 4000 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 14:24:16,204 views 15236 4000 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 14:24:16,207 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,225 views 15236 4000 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 14:24:16,232 views 15236 4000 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:24:16,235 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,252 views 15236 4000 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 14:24:16,259 views 15236 4000 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 14:24:16,262 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,279 views 15236 4000 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 14:24:16,286 views 15236 4000 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 14:24:16,289 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,307 views 15236 4000 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 14:24:16,312 views 15236 4000 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 14:24:16,315 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,332 views 15236 4000 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 14:24:16,338 views 15236 4000 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 14:24:16,341 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,357 views 15236 4000 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 14:24:16,365 views 15236 4000 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 14:24:16,368 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,385 views 15236 4000 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 14:24:16,391 views 15236 4000 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 14:24:16,394 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,411 views 15236 4000 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 14:24:16,419 views 15236 4000 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 14:24:16,422 views 15236 4000 Existing slots to delete: 1
+INFO 2025-01-26 14:24:16,439 views 15236 4000 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 14:24:16,465 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:24:16,466 views 15236 4000 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:24:16,467 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,468 views 15236 4000 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:24:16,469 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,470 views 15236 4000 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:24:16,471 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,472 views 15236 4000 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:24:16,473 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,474 views 15236 4000 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:24:16,476 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,477 views 15236 4000 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:24:16,478 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:24:16,479 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:24:16,480 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:16,481 views 15236 4000 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:24:16,481 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:16,482 views 15236 4000 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:24:16,483 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:16,484 views 15236 4000 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:24:16,485 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:16,486 views 15236 4000 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:24:16,487 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:24:16,488 views 15236 4000 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:24:16,489 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:24:16,490 views 15236 4000 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:24:16,491 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:27:14,101 views 15236 13016 Retrieved 13 slots from the database
+INFO 2025-01-26 14:27:14,102 views 15236 13016 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,104 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,105 views 15236 13016 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,106 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,107 views 15236 13016 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,107 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,108 views 15236 13016 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,109 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,109 views 15236 13016 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,110 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,110 views 15236 13016 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:27:14,111 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,112 views 15236 13016 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,113 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,113 views 15236 13016 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,114 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,115 views 15236 13016 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,115 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,115 views 15236 13016 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:27:14,116 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,117 views 15236 13016 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:27:14,118 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,118 views 15236 13016 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,119 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:27:14,119 views 15236 13016 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,120 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:27:14,799 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:27:14,799 views 15236 4000 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,800 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,800 views 15236 4000 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,801 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,802 views 15236 4000 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,802 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,803 views 15236 4000 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,804 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,805 views 15236 4000 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,806 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,806 views 15236 4000 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:27:14,807 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:27:14,808 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,808 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,809 views 15236 4000 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,810 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,811 views 15236 4000 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:27:14,811 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,812 views 15236 4000 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:27:14,812 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,813 views 15236 4000 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:27:14,814 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:27:14,815 views 15236 4000 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:27:14,815 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:27:14,816 views 15236 4000 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:27:14,817 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:29:47,110 views 15236 13016 Retrieved 13 slots from the database
+INFO 2025-01-26 14:29:47,112 views 15236 13016 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,114 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,115 views 15236 13016 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,116 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,117 views 15236 13016 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,117 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,118 views 15236 13016 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,119 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,120 views 15236 13016 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,120 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,121 views 15236 13016 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:29:47,122 views 15236 13016 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,123 views 15236 13016 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,124 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,125 views 15236 13016 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,126 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,126 views 15236 13016 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,127 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,128 views 15236 13016 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:29:47,129 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,130 views 15236 13016 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:29:47,131 views 15236 13016 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,132 views 15236 13016 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,134 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:29:47,135 views 15236 13016 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,135 views 15236 13016 Regular course found: IRT13
+INFO 2025-01-26 14:29:47,718 views 15236 4000 Retrieved 13 slots from the database
+INFO 2025-01-26 14:29:47,719 views 15236 4000 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,720 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,721 views 15236 4000 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,721 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,722 views 15236 4000 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,723 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,724 views 15236 4000 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,725 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,726 views 15236 4000 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,726 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,727 views 15236 4000 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:29:47,728 views 15236 4000 Regular course found: IRT11
+INFO 2025-01-26 14:29:47,728 views 15236 4000 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,729 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,730 views 15236 4000 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,731 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,732 views 15236 4000 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:29:47,733 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,733 views 15236 4000 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:29:47,734 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,735 views 15236 4000 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:29:47,736 views 15236 4000 Regular course found: IRT22
+INFO 2025-01-26 14:29:47,737 views 15236 4000 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:29:47,738 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:29:47,738 views 15236 4000 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:29:47,739 views 15236 4000 Regular course found: IRT13
+INFO 2025-01-26 14:30:37,531 views 7712 4772 Retrieved 13 slots from the database
+INFO 2025-01-26 14:30:37,533 views 7712 4772 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:30:37,534 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,537 views 7712 4772 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:30:37,538 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,539 views 7712 4772 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:30:37,539 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,540 views 7712 4772 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:30:37,541 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,541 views 7712 4772 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:30:37,542 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,542 views 7712 4772 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:30:37,543 views 7712 4772 Regular course found: IRT11
+INFO 2025-01-26 14:30:37,544 views 7712 4772 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:30:37,545 views 7712 4772 Regular course found: IRT22
+INFO 2025-01-26 14:30:37,545 views 7712 4772 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:30:37,546 views 7712 4772 Regular course found: IRT22
+INFO 2025-01-26 14:30:37,547 views 7712 4772 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:30:37,548 views 7712 4772 Regular course found: IRT22
+INFO 2025-01-26 14:30:37,549 views 7712 4772 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:30:37,550 views 7712 4772 Regular course found: IRT22
+INFO 2025-01-26 14:30:37,551 views 7712 4772 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:30:37,552 views 7712 4772 Regular course found: IRT22
+INFO 2025-01-26 14:30:37,554 views 7712 4772 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:30:37,555 views 7712 4772 Regular course found: IRT13
+INFO 2025-01-26 14:30:37,556 views 7712 4772 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:30:37,557 views 7712 4772 Regular course found: IRT13
+INFO 2025-01-26 14:30:38,111 views 7712 2160 Retrieved 13 slots from the database
+INFO 2025-01-26 14:30:38,112 views 7712 2160 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:30:38,112 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,113 views 7712 2160 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:30:38,114 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,114 views 7712 2160 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:30:38,115 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,116 views 7712 2160 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:30:38,117 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,117 views 7712 2160 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:30:38,118 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,119 views 7712 2160 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:30:38,120 views 7712 2160 Regular course found: IRT11
+INFO 2025-01-26 14:30:38,120 views 7712 2160 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:30:38,121 views 7712 2160 Regular course found: IRT22
+INFO 2025-01-26 14:30:38,122 views 7712 2160 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:30:38,123 views 7712 2160 Regular course found: IRT22
+INFO 2025-01-26 14:30:38,125 views 7712 2160 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:30:38,125 views 7712 2160 Regular course found: IRT22
+INFO 2025-01-26 14:30:38,126 views 7712 2160 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:30:38,127 views 7712 2160 Regular course found: IRT22
+INFO 2025-01-26 14:30:38,128 views 7712 2160 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:30:38,129 views 7712 2160 Regular course found: IRT22
+INFO 2025-01-26 14:30:38,129 views 7712 2160 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:30:38,130 views 7712 2160 Regular course found: IRT13
+INFO 2025-01-26 14:30:38,131 views 7712 2160 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:30:38,132 views 7712 2160 Regular course found: IRT13
+INFO 2025-01-26 14:35:30,687 views 2988 16896 Retrieved 13 slots from the database
+INFO 2025-01-26 14:35:30,689 views 2988 16896 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:35:30,690 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,693 views 2988 16896 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:35:30,694 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,695 views 2988 16896 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:35:30,696 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,698 views 2988 16896 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:35:30,699 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,700 views 2988 16896 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:35:30,700 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,701 views 2988 16896 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:35:30,702 views 2988 16896 Regular course found: IRT11
+INFO 2025-01-26 14:35:30,703 views 2988 16896 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:35:30,704 views 2988 16896 Regular course found: IRT22
+INFO 2025-01-26 14:35:30,705 views 2988 16896 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:35:30,706 views 2988 16896 Regular course found: IRT22
+INFO 2025-01-26 14:35:30,707 views 2988 16896 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:35:30,707 views 2988 16896 Regular course found: IRT22
+INFO 2025-01-26 14:35:30,708 views 2988 16896 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:35:30,709 views 2988 16896 Regular course found: IRT22
+INFO 2025-01-26 14:35:30,710 views 2988 16896 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:35:30,711 views 2988 16896 Regular course found: IRT22
+INFO 2025-01-26 14:35:30,712 views 2988 16896 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:35:30,713 views 2988 16896 Regular course found: IRT13
+INFO 2025-01-26 14:35:30,714 views 2988 16896 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:35:30,715 views 2988 16896 Regular course found: IRT13
+INFO 2025-01-26 14:35:31,328 views 2988 17736 Retrieved 13 slots from the database
+INFO 2025-01-26 14:35:31,329 views 2988 17736 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:35:31,329 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,330 views 2988 17736 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:35:31,331 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,332 views 2988 17736 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:35:31,333 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,334 views 2988 17736 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:35:31,335 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,335 views 2988 17736 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:35:31,336 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,337 views 2988 17736 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:35:31,337 views 2988 17736 Regular course found: IRT11
+INFO 2025-01-26 14:35:31,338 views 2988 17736 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:35:31,339 views 2988 17736 Regular course found: IRT22
+INFO 2025-01-26 14:35:31,339 views 2988 17736 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:35:31,340 views 2988 17736 Regular course found: IRT22
+INFO 2025-01-26 14:35:31,340 views 2988 17736 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:35:31,341 views 2988 17736 Regular course found: IRT22
+INFO 2025-01-26 14:35:31,342 views 2988 17736 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:35:31,342 views 2988 17736 Regular course found: IRT22
+INFO 2025-01-26 14:35:31,343 views 2988 17736 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:35:31,344 views 2988 17736 Regular course found: IRT22
+INFO 2025-01-26 14:35:31,345 views 2988 17736 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:35:31,345 views 2988 17736 Regular course found: IRT13
+INFO 2025-01-26 14:35:31,346 views 2988 17736 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:35:31,347 views 2988 17736 Regular course found: IRT13
+INFO 2025-01-26 14:35:34,233 views 2988 17736 Deleting time slot for department=IRT, semester=S1
+INFO 2025-01-26 14:35:34,235 views 2988 17736 Request data: b'{"week":1,"day":"LUN","period":"P5"}'
+ERROR 2025-01-26 14:35:34,236 views 2988 17736 Error: check_chef_departement_permission() missing 1 required positional argument: 'department_code'
+INFO 2025-01-26 14:42:25,888 views 2448 1316 Retrieved 13 slots from the database
+INFO 2025-01-26 14:42:25,890 views 2448 1316 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 14:42:25,890 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,891 views 2448 1316 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 14:42:25,892 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,892 views 2448 1316 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 14:42:25,893 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,894 views 2448 1316 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 14:42:25,895 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,896 views 2448 1316 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 14:42:25,897 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,898 views 2448 1316 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 14:42:25,899 views 2448 1316 Regular course found: IRT11
+INFO 2025-01-26 14:42:25,900 views 2448 1316 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 14:42:25,900 views 2448 1316 Regular course found: IRT22
+INFO 2025-01-26 14:42:25,901 views 2448 1316 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 14:42:25,901 views 2448 1316 Regular course found: IRT22
+INFO 2025-01-26 14:42:25,902 views 2448 1316 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 14:42:25,903 views 2448 1316 Regular course found: IRT22
+INFO 2025-01-26 14:42:25,903 views 2448 1316 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 14:42:25,904 views 2448 1316 Regular course found: IRT22
+INFO 2025-01-26 14:42:25,905 views 2448 1316 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 14:42:25,905 views 2448 1316 Regular course found: IRT22
+INFO 2025-01-26 14:42:25,906 views 2448 1316 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 14:42:25,907 views 2448 1316 Regular course found: IRT13
+INFO 2025-01-26 14:42:25,907 views 2448 1316 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 14:42:25,908 views 2448 1316 Regular course found: IRT13
+INFO 2025-01-26 15:35:14,432 views 11292 8356 Retrieved 13 slots from the database
+INFO 2025-01-26 15:35:14,433 views 11292 8356 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 15:35:14,434 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,434 views 11292 8356 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 15:35:14,435 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,435 views 11292 8356 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 15:35:14,436 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,437 views 11292 8356 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 15:35:14,437 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,437 views 11292 8356 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 15:35:14,438 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,438 views 11292 8356 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 15:35:14,438 views 11292 8356 Regular course found: IRT11
+INFO 2025-01-26 15:35:14,438 views 11292 8356 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:35:14,438 views 11292 8356 Regular course found: IRT22
+INFO 2025-01-26 15:35:14,439 views 11292 8356 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 15:35:14,439 views 11292 8356 Regular course found: IRT22
+INFO 2025-01-26 15:35:14,439 views 11292 8356 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 15:35:14,440 views 11292 8356 Regular course found: IRT22
+INFO 2025-01-26 15:35:14,440 views 11292 8356 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 15:35:14,440 views 11292 8356 Regular course found: IRT22
+INFO 2025-01-26 15:35:14,441 views 11292 8356 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 15:35:14,442 views 11292 8356 Regular course found: IRT22
+INFO 2025-01-26 15:35:14,442 views 11292 8356 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 15:35:14,442 views 11292 8356 Regular course found: IRT13
+INFO 2025-01-26 15:35:14,443 views 11292 8356 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 15:35:14,443 views 11292 8356 Regular course found: IRT13
+INFO 2025-01-26 15:35:17,495 views 11292 20260 Retrieved 13 slots from the database
+INFO 2025-01-26 15:35:17,496 views 11292 20260 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 15:35:17,496 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,497 views 11292 20260 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 15:35:17,497 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,498 views 11292 20260 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 15:35:17,498 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,498 views 11292 20260 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 15:35:17,499 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,499 views 11292 20260 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 15:35:17,500 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,500 views 11292 20260 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 15:35:17,501 views 11292 20260 Regular course found: IRT11
+INFO 2025-01-26 15:35:17,501 views 11292 20260 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:35:17,501 views 11292 20260 Regular course found: IRT22
+INFO 2025-01-26 15:35:17,502 views 11292 20260 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 15:35:17,502 views 11292 20260 Regular course found: IRT22
+INFO 2025-01-26 15:35:17,502 views 11292 20260 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 15:35:17,503 views 11292 20260 Regular course found: IRT22
+INFO 2025-01-26 15:35:17,503 views 11292 20260 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 15:35:17,504 views 11292 20260 Regular course found: IRT22
+INFO 2025-01-26 15:35:17,504 views 11292 20260 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 15:35:17,504 views 11292 20260 Regular course found: IRT22
+INFO 2025-01-26 15:35:17,504 views 11292 20260 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 15:35:17,505 views 11292 20260 Regular course found: IRT13
+INFO 2025-01-26 15:35:17,505 views 11292 20260 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 15:35:17,505 views 11292 20260 Regular course found: IRT13
+INFO 2025-01-26 15:51:13,117 views 10484 2968 Retrieved 13 slots from the database
+INFO 2025-01-26 15:51:13,119 views 10484 2968 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 15:51:13,119 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,119 views 10484 2968 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 15:51:13,120 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,120 views 10484 2968 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 15:51:13,120 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,121 views 10484 2968 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 15:51:13,121 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,122 views 10484 2968 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 15:51:13,122 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,123 views 10484 2968 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 15:51:13,123 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:51:13,123 views 10484 2968 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:51:13,123 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:51:13,124 views 10484 2968 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 15:51:13,124 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:51:13,124 views 10484 2968 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 15:51:13,124 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:51:13,125 views 10484 2968 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 15:51:13,125 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:51:13,126 views 10484 2968 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 15:51:13,126 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:51:13,127 views 10484 2968 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 15:51:13,127 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:51:13,127 views 10484 2968 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 15:51:13,127 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:51:23,931 views 10484 16748 Retrieved 0 slots from the database
+INFO 2025-01-26 15:52:18,842 views 10484 2968 Retrieved 0 slots from the database
+INFO 2025-01-26 15:53:54,053 views 10484 2968 Retrieved 13 slots from the database
+INFO 2025-01-26 15:53:54,054 views 10484 2968 Processing slot: 712, Type: CM, Special: False
+INFO 2025-01-26 15:53:54,055 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,055 views 10484 2968 Processing slot: 717, Type: CM, Special: False
+INFO 2025-01-26 15:53:54,056 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,056 views 10484 2968 Processing slot: 711, Type: TD, Special: False
+INFO 2025-01-26 15:53:54,057 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,057 views 10484 2968 Processing slot: 709, Type: TP, Special: False
+INFO 2025-01-26 15:53:54,058 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,058 views 10484 2968 Processing slot: 716, Type: TP, Special: False
+INFO 2025-01-26 15:53:54,058 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,059 views 10484 2968 Processing slot: 714, Type: EXAM, Special: False
+INFO 2025-01-26 15:53:54,059 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:54,059 views 10484 2968 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:53:54,060 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:54,060 views 10484 2968 Processing slot: 713, Type: TD, Special: False
+INFO 2025-01-26 15:53:54,060 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:54,060 views 10484 2968 Processing slot: 719, Type: TP, Special: False
+INFO 2025-01-26 15:53:54,061 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:54,061 views 10484 2968 Processing slot: 710, Type: DS, Special: False
+INFO 2025-01-26 15:53:54,061 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:54,061 views 10484 2968 Processing slot: 718, Type: DS, Special: False
+INFO 2025-01-26 15:53:54,062 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:54,062 views 10484 2968 Processing slot: 708, Type: CM, Special: False
+INFO 2025-01-26 15:53:54,062 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:53:54,063 views 10484 2968 Processing slot: 715, Type: TD, Special: False
+INFO 2025-01-26 15:53:54,063 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:53:57,513 views 10484 2968 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 15:53:57,523 views 10484 2968 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 15:53:57,526 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,542 views 10484 2968 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 15:53:57,548 views 10484 2968 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 15:53:57,551 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,566 views 10484 2968 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 15:53:57,570 views 10484 2968 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 15:53:57,572 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,584 views 10484 2968 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 15:53:57,587 views 10484 2968 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 15:53:57,589 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,601 views 10484 2968 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 15:53:57,606 views 10484 2968 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 15:53:57,607 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,618 views 10484 2968 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 15:53:57,621 views 10484 2968 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 15:53:57,623 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,633 views 10484 2968 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 15:53:57,636 views 10484 2968 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 15:53:57,637 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,647 views 10484 2968 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 15:53:57,651 views 10484 2968 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 15:53:57,652 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,661 views 10484 2968 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 15:53:57,665 views 10484 2968 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 15:53:57,667 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,674 views 10484 2968 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 15:53:57,677 views 10484 2968 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 15:53:57,678 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,687 views 10484 2968 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 15:53:57,691 views 10484 2968 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 15:53:57,692 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,702 views 10484 2968 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 15:53:57,704 views 10484 2968 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 15:53:57,705 views 10484 2968 Existing slots to delete: 1
+INFO 2025-01-26 15:53:57,713 views 10484 2968 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 15:53:57,740 views 10484 2968 Retrieved 13 slots from the database
+INFO 2025-01-26 15:53:57,741 views 10484 2968 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 15:53:57,741 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,742 views 10484 2968 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 15:53:57,742 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,742 views 10484 2968 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 15:53:57,742 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,743 views 10484 2968 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 15:53:57,743 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,743 views 10484 2968 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 15:53:57,743 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,743 views 10484 2968 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 15:53:57,744 views 10484 2968 Regular course found: IRT11
+INFO 2025-01-26 15:53:57,744 views 10484 2968 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:53:57,744 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:57,744 views 10484 2968 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 15:53:57,745 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:57,745 views 10484 2968 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 15:53:57,745 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:57,745 views 10484 2968 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 15:53:57,746 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:57,746 views 10484 2968 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 15:53:57,746 views 10484 2968 Regular course found: IRT22
+INFO 2025-01-26 15:53:57,746 views 10484 2968 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 15:53:57,747 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:53:57,747 views 10484 2968 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 15:53:57,747 views 10484 2968 Regular course found: IRT13
+INFO 2025-01-26 15:57:23,936 views 10652 11376 Retrieved 13 slots from the database
+INFO 2025-01-26 15:57:23,937 views 10652 11376 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 15:57:23,937 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,937 views 10652 11376 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 15:57:23,938 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,938 views 10652 11376 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 15:57:23,938 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,939 views 10652 11376 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 15:57:23,939 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,939 views 10652 11376 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 15:57:23,939 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,940 views 10652 11376 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 15:57:23,940 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:23,940 views 10652 11376 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:57:23,940 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:23,941 views 10652 11376 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 15:57:23,941 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:23,941 views 10652 11376 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 15:57:23,941 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:23,942 views 10652 11376 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 15:57:23,942 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:23,942 views 10652 11376 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 15:57:23,942 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:23,943 views 10652 11376 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 15:57:23,943 views 10652 11376 Regular course found: IRT13
+INFO 2025-01-26 15:57:23,943 views 10652 11376 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 15:57:23,943 views 10652 11376 Regular course found: IRT13
+INFO 2025-01-26 15:57:24,096 views 10652 17528 Retrieved 13 slots from the database
+INFO 2025-01-26 15:57:24,097 views 10652 17528 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,097 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,098 views 10652 17528 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,098 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,098 views 10652 17528 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,098 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,099 views 10652 17528 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,099 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,099 views 10652 17528 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,099 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,099 views 10652 17528 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 15:57:24,100 views 10652 17528 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,100 views 10652 17528 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,100 views 10652 17528 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,100 views 10652 17528 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,101 views 10652 17528 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,101 views 10652 17528 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,101 views 10652 17528 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,101 views 10652 17528 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 15:57:24,102 views 10652 17528 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,102 views 10652 17528 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 15:57:24,102 views 10652 17528 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,102 views 10652 17528 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,103 views 10652 17528 Regular course found: IRT13
+INFO 2025-01-26 15:57:24,103 views 10652 17528 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,103 views 10652 17528 Regular course found: IRT13
+INFO 2025-01-26 15:57:24,544 views 10652 11376 Retrieved 13 slots from the database
+INFO 2025-01-26 15:57:24,545 views 10652 11376 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,545 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,546 views 10652 11376 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,546 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,546 views 10652 11376 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,547 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,547 views 10652 11376 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,547 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,548 views 10652 11376 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,548 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,548 views 10652 11376 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 15:57:24,549 views 10652 11376 Regular course found: IRT11
+INFO 2025-01-26 15:57:24,549 views 10652 11376 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,549 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,550 views 10652 11376 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,550 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,550 views 10652 11376 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 15:57:24,550 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,551 views 10652 11376 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 15:57:24,551 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,551 views 10652 11376 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 15:57:24,551 views 10652 11376 Regular course found: IRT22
+INFO 2025-01-26 15:57:24,552 views 10652 11376 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 15:57:24,552 views 10652 11376 Regular course found: IRT13
+INFO 2025-01-26 15:57:24,552 views 10652 11376 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 15:57:24,552 views 10652 11376 Regular course found: IRT13
+ERROR 2025-01-26 15:57:27,230 views 10652 11376 Unexpected error: check_chef_departement_permission() missing 1 required positional argument: 'department_code'
+ERROR 2025-01-26 15:57:30,757 views 10652 11376 Unexpected error: check_chef_departement_permission() missing 1 required positional argument: 'department_code'
+INFO 2025-01-26 16:00:51,967 views 17368 13064 Retrieved 13 slots from the database
+INFO 2025-01-26 16:00:51,967 views 17368 13064 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 16:00:51,968 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,968 views 17368 13064 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 16:00:51,969 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,969 views 17368 13064 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 16:00:51,969 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,970 views 17368 13064 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 16:00:51,970 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,970 views 17368 13064 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 16:00:51,971 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,971 views 17368 13064 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 16:00:51,971 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:51,972 views 17368 13064 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 16:00:51,972 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:51,972 views 17368 13064 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 16:00:51,973 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:51,973 views 17368 13064 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 16:00:51,973 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:51,973 views 17368 13064 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 16:00:51,974 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:51,974 views 17368 13064 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 16:00:51,974 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:51,975 views 17368 13064 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 16:00:51,975 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:00:51,975 views 17368 13064 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 16:00:51,976 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:00:52,168 views 17368 18936 Retrieved 13 slots from the database
+INFO 2025-01-26 16:00:52,174 views 17368 18936 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,174 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,174 views 17368 18936 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,175 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,175 views 17368 18936 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,175 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,176 views 17368 18936 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,176 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,178 views 17368 18936 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,178 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,178 views 17368 18936 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 16:00:52,179 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,179 views 17368 18936 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,179 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,180 views 17368 18936 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,180 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,180 views 17368 18936 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,181 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,181 views 17368 18936 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 16:00:52,181 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,182 views 17368 18936 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 16:00:52,182 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,183 views 17368 18936 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,183 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:00:52,183 views 17368 18936 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,184 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:00:52,604 views 17368 13064 Retrieved 13 slots from the database
+INFO 2025-01-26 16:00:52,605 views 17368 13064 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,606 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,606 views 17368 13064 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,607 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,609 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Processing slot: 679, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,610 views 17368 13064 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 16:00:52,611 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,611 views 17368 13064 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 16:00:52,611 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,611 views 17368 13064 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 16:00:52,611 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:00:52,612 views 17368 13064 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 16:00:52,612 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:00:52,612 views 17368 13064 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 16:00:52,612 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:00:55,605 views 17368 13064 Data received: {'week': 1, 'day': 'LUN', 'period': 'P5'}
+INFO 2025-01-26 16:00:55,615 views 17368 13064 Time slot deleted: {'week': 1, 'day': 'LUN', 'period': 'P5'}
+INFO 2025-01-26 16:01:02,209 views 17368 18936 Retrieved 12 slots from the database
+INFO 2025-01-26 16:01:02,210 views 17368 18936 Processing slot: 724, Type: CM, Special: False
+INFO 2025-01-26 16:01:02,211 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,212 views 17368 18936 Processing slot: 729, Type: CM, Special: False
+INFO 2025-01-26 16:01:02,212 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,213 views 17368 18936 Processing slot: 723, Type: TD, Special: False
+INFO 2025-01-26 16:01:02,213 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,213 views 17368 18936 Processing slot: 721, Type: TP, Special: False
+INFO 2025-01-26 16:01:02,213 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,214 views 17368 18936 Processing slot: 728, Type: TP, Special: False
+INFO 2025-01-26 16:01:02,214 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,214 views 17368 18936 Processing slot: 726, Type: EXAM, Special: False
+INFO 2025-01-26 16:01:02,214 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:02,215 views 17368 18936 Processing slot: 725, Type: TD, Special: False
+INFO 2025-01-26 16:01:02,215 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:02,215 views 17368 18936 Processing slot: 731, Type: TP, Special: False
+INFO 2025-01-26 16:01:02,215 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:02,217 views 17368 18936 Processing slot: 722, Type: DS, Special: False
+INFO 2025-01-26 16:01:02,217 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:02,218 views 17368 18936 Processing slot: 730, Type: DS, Special: False
+INFO 2025-01-26 16:01:02,218 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:02,219 views 17368 18936 Processing slot: 720, Type: CM, Special: False
+INFO 2025-01-26 16:01:02,219 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:01:02,219 views 17368 18936 Processing slot: 727, Type: TD, Special: False
+INFO 2025-01-26 16:01:02,219 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:01:10,502 views 17368 18936 Raw request body: [{"week":1,"day":"LUN","period":"P1","course_code":"IRT13","type":"CM"},{"week":2,"day":"LUN","period":"P1","course_code":"IRT11","type":"TP"},{"week":1,"day":"LUN","period":"P2","course_code":"IRT22","type":"DS"},{"week":2,"day":"LUN","period":"P2","course_code":"IRT11","type":"TD"},{"week":3,"day":"LUN","period":"P3","course_code":"IRT11","type":"CM"},{"week":1,"day":"LUN","period":"P4","course_code":"IRT22","type":"TD"},{"week":2,"day":"LUN","period":"P4","course_code":"IRT11","type":"EXAM"},{"week":4,"day":"LUN","period":"P4","course_code":"IRT13","type":"TD"},{"week":1,"day":"MAR","period":"P2","course_code":"IRT11","type":"DS"},{"week":2,"day":"MAR","period":"P3","course_code":"IRT11","type":"TP"},{"week":3,"day":"MAR","period":"P4","course_code":"IRT11","type":"CM"},{"week":5,"day":"MAR","period":"P4","course_code":"IRT22","type":"DS"},{"week":3,"day":"MER","period":"P3","course_code":"IRT22","type":"TP"}]
+INFO 2025-01-26 16:01:10,513 views 17368 18936 Course assignment found: IRT13 - bihe (CM)
+INFO 2025-01-26 16:01:10,519 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,537 views 17368 18936 New slot created: IRT13 - LUN P1 (Week 1)
+INFO 2025-01-26 16:01:10,546 views 17368 18936 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 16:01:10,548 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,561 views 17368 18936 New slot created: IRT11 - LUN P1 (Week 2)
+INFO 2025-01-26 16:01:10,566 views 17368 18936 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 16:01:10,567 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,580 views 17368 18936 New slot created: IRT22 - LUN P2 (Week 1)
+INFO 2025-01-26 16:01:10,583 views 17368 18936 Course assignment found: IRT11 - medou (TD)
+INFO 2025-01-26 16:01:10,585 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,598 views 17368 18936 New slot created: IRT11 - LUN P2 (Week 2)
+INFO 2025-01-26 16:01:10,604 views 17368 18936 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 16:01:10,606 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,617 views 17368 18936 New slot created: IRT11 - LUN P3 (Week 3)
+INFO 2025-01-26 16:01:10,621 views 17368 18936 Course assignment found: IRT22 - babah (TD)
+INFO 2025-01-26 16:01:10,622 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,632 views 17368 18936 New slot created: IRT22 - LUN P4 (Week 1)
+INFO 2025-01-26 16:01:10,634 views 17368 18936 Course assignment found: IRT11 - No Professor (EXAM)
+INFO 2025-01-26 16:01:10,635 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,647 views 17368 18936 New slot created: IRT11 - LUN P4 (Week 2)
+INFO 2025-01-26 16:01:10,652 views 17368 18936 Course assignment found: IRT13 - vihka (TD)
+INFO 2025-01-26 16:01:10,653 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,663 views 17368 18936 New slot created: IRT13 - LUN P4 (Week 4)
+INFO 2025-01-26 16:01:10,669 views 17368 18936 Course assignment created: IRT11 - No Professor (DS)
+INFO 2025-01-26 16:01:10,670 views 17368 18936 Existing slots to delete: 0
+INFO 2025-01-26 16:01:10,676 views 17368 18936 New slot created: IRT11 - MAR P2 (Week 1)
+INFO 2025-01-26 16:01:10,681 views 17368 18936 Course assignment found: IRT11 - selma (TP)
+INFO 2025-01-26 16:01:10,682 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,690 views 17368 18936 New slot created: IRT11 - MAR P3 (Week 2)
+INFO 2025-01-26 16:01:10,693 views 17368 18936 Course assignment found: IRT11 - dahi (CM)
+INFO 2025-01-26 16:01:10,695 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,703 views 17368 18936 New slot created: IRT11 - MAR P4 (Week 3)
+INFO 2025-01-26 16:01:10,707 views 17368 18936 Course assignment found: IRT22 - No Professor (DS)
+INFO 2025-01-26 16:01:10,709 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,718 views 17368 18936 New slot created: IRT22 - MAR P4 (Week 5)
+INFO 2025-01-26 16:01:10,721 views 17368 18936 Course assignment found: IRT22 - laghdaf (TP)
+INFO 2025-01-26 16:01:10,722 views 17368 18936 Existing slots to delete: 1
+INFO 2025-01-26 16:01:10,731 views 17368 18936 New slot created: IRT22 - MER P3 (Week 3)
+INFO 2025-01-26 16:01:10,756 views 17368 18936 Retrieved 13 slots from the database
+INFO 2025-01-26 16:01:10,757 views 17368 18936 Processing slot: 736, Type: CM, Special: False
+INFO 2025-01-26 16:01:10,757 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,758 views 17368 18936 Processing slot: 742, Type: CM, Special: False
+INFO 2025-01-26 16:01:10,758 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,758 views 17368 18936 Processing slot: 735, Type: TD, Special: False
+INFO 2025-01-26 16:01:10,759 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,759 views 17368 18936 Processing slot: 733, Type: TP, Special: False
+INFO 2025-01-26 16:01:10,760 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,760 views 17368 18936 Processing slot: 741, Type: TP, Special: False
+INFO 2025-01-26 16:01:10,760 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,761 views 17368 18936 Processing slot: 738, Type: EXAM, Special: False
+INFO 2025-01-26 16:01:10,761 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,761 views 17368 18936 Processing slot: 740, Type: DS, Special: False
+INFO 2025-01-26 16:01:10,762 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:10,762 views 17368 18936 Processing slot: 737, Type: TD, Special: False
+INFO 2025-01-26 16:01:10,762 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:10,763 views 17368 18936 Processing slot: 744, Type: TP, Special: False
+INFO 2025-01-26 16:01:10,763 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:10,763 views 17368 18936 Processing slot: 734, Type: DS, Special: False
+INFO 2025-01-26 16:01:10,763 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:10,763 views 17368 18936 Processing slot: 743, Type: DS, Special: False
+INFO 2025-01-26 16:01:10,764 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:10,764 views 17368 18936 Processing slot: 732, Type: CM, Special: False
+INFO 2025-01-26 16:01:10,764 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:01:10,765 views 17368 18936 Processing slot: 739, Type: TD, Special: False
+INFO 2025-01-26 16:01:10,765 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:01:21,854 views 17368 13064 Retrieved 13 slots from the database
+INFO 2025-01-26 16:01:21,854 views 17368 13064 Processing slot: 736, Type: CM, Special: False
+INFO 2025-01-26 16:01:21,855 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,855 views 17368 13064 Processing slot: 742, Type: CM, Special: False
+INFO 2025-01-26 16:01:21,855 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,855 views 17368 13064 Processing slot: 735, Type: TD, Special: False
+INFO 2025-01-26 16:01:21,855 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,856 views 17368 13064 Processing slot: 733, Type: TP, Special: False
+INFO 2025-01-26 16:01:21,856 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,856 views 17368 13064 Processing slot: 741, Type: TP, Special: False
+INFO 2025-01-26 16:01:21,856 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,857 views 17368 13064 Processing slot: 738, Type: EXAM, Special: False
+INFO 2025-01-26 16:01:21,857 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,857 views 17368 13064 Processing slot: 740, Type: DS, Special: False
+INFO 2025-01-26 16:01:21,858 views 17368 13064 Regular course found: IRT11
+INFO 2025-01-26 16:01:21,858 views 17368 13064 Processing slot: 737, Type: TD, Special: False
+INFO 2025-01-26 16:01:21,858 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:01:21,858 views 17368 13064 Processing slot: 744, Type: TP, Special: False
+INFO 2025-01-26 16:01:21,859 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:01:21,859 views 17368 13064 Processing slot: 734, Type: DS, Special: False
+INFO 2025-01-26 16:01:21,859 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:01:21,859 views 17368 13064 Processing slot: 743, Type: DS, Special: False
+INFO 2025-01-26 16:01:21,860 views 17368 13064 Regular course found: IRT22
+INFO 2025-01-26 16:01:21,860 views 17368 13064 Processing slot: 732, Type: CM, Special: False
+INFO 2025-01-26 16:01:21,860 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:01:21,861 views 17368 13064 Processing slot: 739, Type: TD, Special: False
+INFO 2025-01-26 16:01:21,861 views 17368 13064 Regular course found: IRT13
+INFO 2025-01-26 16:01:24,872 views 17368 13064 Data received: {'week': 1, 'day': 'MAR', 'period': 'P2'}
+INFO 2025-01-26 16:01:24,884 views 17368 13064 Time slot deleted: {'week': 1, 'day': 'MAR', 'period': 'P2'}
+INFO 2025-01-26 16:01:31,281 views 17368 18936 Retrieved 12 slots from the database
+INFO 2025-01-26 16:01:31,282 views 17368 18936 Processing slot: 736, Type: CM, Special: False
+INFO 2025-01-26 16:01:31,282 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,283 views 17368 18936 Processing slot: 742, Type: CM, Special: False
+INFO 2025-01-26 16:01:31,283 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,283 views 17368 18936 Processing slot: 735, Type: TD, Special: False
+INFO 2025-01-26 16:01:31,284 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,284 views 17368 18936 Processing slot: 733, Type: TP, Special: False
+INFO 2025-01-26 16:01:31,284 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,284 views 17368 18936 Processing slot: 741, Type: TP, Special: False
+INFO 2025-01-26 16:01:31,285 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,285 views 17368 18936 Processing slot: 738, Type: EXAM, Special: False
+INFO 2025-01-26 16:01:31,285 views 17368 18936 Regular course found: IRT11
+INFO 2025-01-26 16:01:31,286 views 17368 18936 Processing slot: 737, Type: TD, Special: False
+INFO 2025-01-26 16:01:31,286 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:31,286 views 17368 18936 Processing slot: 744, Type: TP, Special: False
+INFO 2025-01-26 16:01:31,286 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:31,287 views 17368 18936 Processing slot: 734, Type: DS, Special: False
+INFO 2025-01-26 16:01:31,287 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:31,287 views 17368 18936 Processing slot: 743, Type: DS, Special: False
+INFO 2025-01-26 16:01:31,287 views 17368 18936 Regular course found: IRT22
+INFO 2025-01-26 16:01:31,287 views 17368 18936 Processing slot: 732, Type: CM, Special: False
+INFO 2025-01-26 16:01:31,288 views 17368 18936 Regular course found: IRT13
+INFO 2025-01-26 16:01:31,288 views 17368 18936 Processing slot: 739, Type: TD, Special: False
+INFO 2025-01-26 16:01:31,288 views 17368 18936 Regular course found: IRT13

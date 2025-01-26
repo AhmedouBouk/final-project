@@ -654,15 +654,29 @@ def save_slot(request, department_code, semester_code):
         'status': 'error',
         'message': 'Invalid request method'
     }, status=405)
+
+#modifier
+import logging
+from django.http import JsonResponse
+from django.shortcuts import get_object_or_404
+from django.core.exceptions import PermissionDenied
+import json
+from .models import Department, Semester, TimeSlot
+
+logger = logging.getLogger(__name__)
 @csrf_exempt
 def delete_slot(request, department_code, semester_code):
     """Delete a time slot"""
     if request.method == 'POST':
         try:
             # Vérifier les permissions
-            check_chef_departement_permission(request.user)
+            check_chef_departement_permission(request.user, department_code)
             
+            # Charger les données JSON
             data = json.loads(request.body)
+            logger.info(f"Data received: {data}")
+            
+            # Récupérer le département et le semestre
             department = get_object_or_404(Department, code=department_code)
             semester = get_object_or_404(Semester, department=department, code=semester_code)
             
@@ -677,6 +691,7 @@ def delete_slot(request, department_code, semester_code):
             
             # Supprimer le time slot
             time_slot.delete()
+            logger.info(f"Time slot deleted: {data}")
             
             return JsonResponse({
                 'status': 'success',
@@ -684,18 +699,21 @@ def delete_slot(request, department_code, semester_code):
             })
             
         except PermissionDenied as e:
+            logger.error(f"Permission denied: {e}")
             return JsonResponse({
                 'status': 'error',
                 'message': str(e)
             }, status=403)
             
         except TimeSlot.DoesNotExist:
+            logger.error("Time slot not found")
             return JsonResponse({
                 'status': 'error',
                 'message': 'Time slot not found'
             }, status=404)
             
         except Exception as e:
+            logger.error(f"Unexpected error: {e}")
             return JsonResponse({
                 'status': 'error',
                 'message': str(e)
@@ -705,7 +723,6 @@ def delete_slot(request, department_code, semester_code):
         'status': 'error',
         'message': 'Invalid request method'
     }, status=405)
-
 @csrf_exempt
 def update_bilan(request, department_code, semester_code):
     """Update course completion values"""
